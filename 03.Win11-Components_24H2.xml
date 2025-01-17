@@ -1,20 +1,21 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Preset isAutoSaved="true" xmlns="urn:schemas-nliteos-com:pn.v1">
-	<Date>11/28/2024 14:48:54</Date>
+	<Date>01/17/2025 03:16:16</Date>
 	<AppInfo>
-		<Version>2024.11.10169</Version>
+		<Version>2025.1.10261</Version>
 		<Licensed>Yes</Licensed>
 		<Protections>Yes</Protections>
-		<Host>Windows 11 Professional 23H2 x64 - 10.0.22631.4460 (en-US)</Host>
+		<Host>Windows 10 Professional 22H2 x64 - 10.0.19045.5371 (en-US)</Host>
 	</AppInfo>
 	<ImageInfo>
-		<Version mode="offline">Windows 11 Professional 24H2 x64 - 10.0.26100.2314 (en-US)</Version>
-		<GUID>{3A823682-C9EC-494F-94D8-1BB6B0675CA7}</GUID>
+		<Version mode="offline">Windows 11 Professional 24H2 x64 - 10.0.26100.2894 (en-US)</Version>
+		<GUID>{7473D167-A9E8-443B-9A1A-A364A37FE6BD}</GUID>
 	</ImageInfo>
 	<RemoveComponents AppRemovalMode="DISM">
 		<c>activedirectory 'Active Directory'</c>
 		<c>adamclient 'Active Directory Lightweight Directory Services (AD LDS)'</c>
 		<c>asimov 'Telemetry Client'</c>
+		<c>assembly.net '.NET assembly cache'</c>
 		<c>assignedaccess 'Assigned Access'</c>
 		<c>axinstall 'ActiveX Installer Service'</c>
 		<c>azuread 'Azure Active Directory'</c>
@@ -27,8 +28,10 @@
 		<c>copilotpwa 'Windows Copilot (InboxApp)'</c>
 		<c>cursors 'Mouse Pointers'</c>
 		<c>desktopimgdownldr 'Desktop image downloader'</c>
+		<c>deviceupdatecenter 'Device Update Center'</c>
 		<c>diagnostics 'Diagnostics and Troubleshooting'</c>
 		<c>diskdiagnosis 'Disk failure diagnostics'</c>
+		<c>diskquota32 'Disk Quota - 32 bit'</c>
 		<c>dolbyatmos 'Dolby Atmos codec pack'</c>
 		<c>driver_battery.inf</c>
 		<c>driver_c_barcodescanner.inf</c>
@@ -259,6 +262,8 @@
 		<c>driver_wvpci.inf</c>
 		<c>dvdplay 'DVD Play'</c>
 		<c>e2a4f912-2574-4a75-9bb0-0d023378592b 'App Resolver'</c>
+		<c>edgehtml32 'HTML Viewer - 32 bit'</c>
+		<c>embeddedmode 'Embedded Mode'</c>
 		<c>errorreporting 'Windows Error Reporting'</c>
 		<c>errorreportingapi 'Windows Error Reporting API'</c>
 		<c>f46d4000-fd22-4db4-ac8e-4e1ddde828fe 'Add Folder Suggestions dialog'</c>
@@ -268,6 +273,7 @@
 		<c>fontpreviewer32 'Font previewer - 32 bit'</c>
 		<c>gameexplorer 'Game Explorer'</c>
 		<c>hbaapi 'Host Bus Adapter (HBA) API'</c>
+		<c>help 'Windows Help content'</c>
 		<c>hwsupport_floppy 'Floppy disk'</c>
 		<c>hwsupport_infrared 'Infrared devices'</c>
 		<c>hwsupport_internetprintingclient 'Internet Printing Client'</c>
@@ -280,6 +286,7 @@
 		<c>iis 'Internet Information Server (IIS)'</c>
 		<c>indeo 'Intel Indeo Codecs'</c>
 		<c>insiderhub 'Windows Insider Program'</c>
+		<c>internetexplorer32 'Internet Explorer - 32 bit'</c>
 		<c>iscsi 'iSCSI Initiator'</c>
 		<c>kerberos32 'Kerberos Client - 32 bit'</c>
 		<c>kerneldebug 'Kernel Debugging'</c>
@@ -287,8 +294,11 @@
 		<c>lcu 'Cumulative Update cache (LCU)'</c>
 		<c>location 'Location Service'</c>
 		<c>lockscreens 'Lock Screen backgrounds'</c>
+		<c>lxss 'Windows Subsystem for Linux'</c>
 		<c>mail 'Windows Mail'</c>
 		<c>mailcommdll 'Windows Mail Communications Library'</c>
+		<c>manifestbackup 'Manifest Backup (WinSxS\Backup)'</c>
+		<c>mapcontrol 'Map Control'</c>
 		<c>mediacodec32 'Windows Media Codecs - 32 bit'</c>
 		<c>mediafoundation32 'Media Foundation - 32 bit'</c>
 		<c>mediaplayer32 'Windows Media Player - 32 bit'</c>
@@ -354,12 +364,15 @@
 		<c>microsoft.yourphone 'Phone Link'</c>
 		<c>microsoft.zunemusic 'Windows Media Player'</c>
 		<c>microsoftcorporationii.quickassist 'Quick Assist'</c>
+		<c>microsoftcorporationii.windowssubsystemforlinux 'Windows Subsystem for Linux'</c>
 		<c>microsoftwindows.client.aix 'Windows Copilot (Windows Feature Experience Pack)'</c>
 		<c>microsoftwindows.client.photon 'Windows Feature Experience Pack - Photon'</c>
 		<c>microsoftwindows.client.webexperience 'Windows Web Experience Pack'</c>
 		<c>microsoftwindows.crossdevice 'Cross Device Experience Host'</c>
 		<c>microsoftwindows.lkg.accountsservice 'LastKnownGood - AccountsService'</c>
 		<c>microsoftwindows.lkg.irisservice 'LastKnownGood - IrisService'</c>
+		<c>mixedreality 'Windows Mixed Reality'</c>
+		<c>mpe 'Microsoft Privacy Engine'</c>
 		<c>msmq 'Microsoft Message Queue (MSMQ)'</c>
 		<c>msteams 'Microsoft Teams'</c>
 		<c>ndu 'Network Data Usage Monitoring Driver'</c>
@@ -368,21 +381,23 @@
 		<c>notepad 'Notepad (Legacy)'</c>
 		<c>offlinefiles 'Offline Files'</c>
 		<c>onedrive</c>
+		<c>oobefodsetup 'Out-of-box Experience (OOBE) - FOD Setup'</c>
 		<c>openssh</c>
 		<c>otherthemes 'Windows Personalization themes'</c>
 		<c>outlookpwa 'Outlook PWA (InboxApp)'</c>
 		<c>payments</c>
 		<c>phonesvc 'Phone Service'</c>
-		<c>photocodec 'Photo codec'</c>
-		<c>photocodec32 'Photo codec - 32 bit'</c>
 		<c>photoviewer 'Photo Viewer'</c>
 		<c>photoviewer32 'Photo Viewer - 32 bit'</c>
 		<c>pos 'Point of Service (POS)'</c>
 		<c>powershell32 'PowerShell - 32 bit'</c>
 		<c>powershellise 'PowerShell ISE'</c>
 		<c>powershellise32 'PowerShell ISE - 32 bit'</c>
+		<c>printmgmt 'Print Management'</c>
 		<c>printtopdf 'Print to PDF'</c>
 		<c>printworkflow 'Print Workflow Service'</c>
+		<c>projfs 'Projected File System (ProjFS)'</c>
+		<c>pushtoinstall 'Windows PushToInstall Service'</c>
 		<c>rasauto 'Remote Access Auto Connection Manager'</c>
 		<c>rdc 'Remote Differential Compression (RDC)'</c>
 		<c>rdmaping 'Remote Direct Memory Access (RDMA) ping tool'</c>
@@ -390,15 +405,20 @@
 		<c>rdpclient32 'Remote Desktop Client - 32 bit'</c>
 		<c>rdpserver 'Remote Desktop Server'</c>
 		<c>rdpserverlic 'Remote Desktop Licensing'</c>
+		<c>refs 'Resilient File System (ReFS)'</c>
+		<c>regedit32 'Registry Editor - 32 bit'</c>
 		<c>remoteactivex 'Remote Desktop Services ActiveX Client'</c>
 		<c>remoteactivex32 'Remote Desktop Services ActiveX Client - 32 bit'</c>
 		<c>remoteassistance 'Remote Assistance'</c>
 		<c>remotefx</c>
 		<c>remoteportredirector 'Remote Desktop Services Port Redirector'</c>
 		<c>remoteregistry 'Remote Registry'</c>
+		<c>retaildemo 'Retail Demo Content'</c>
+		<c>rotationmanager 'Auto-Rotation Manager'</c>
 		<c>screensavers</c>
 		<c>sharedpc 'Shared PC mode'</c>
 		<c>simpletcp 'Simple TCP/IP services'</c>
+		<c>skypeortc 'Skype ORTC'</c>
 		<c>sleepstudy 'Sleep Study'</c>
 		<c>smbdirect 'SMB Direct (RDMA)'</c>
 		<c>smbv1 'SMB v1'</c>
@@ -411,10 +431,14 @@
 		<c>supportdir 'Support directory'</c>
 		<c>synccenter 'Sync Center'</c>
 		<c>systemguard 'System Guard'</c>
+		<c>tabletpc 'Tablet PC'</c>
 		<c>targetedcontent32 'Targeted Content Service - 32 bit'</c>
 		<c>telnetclient 'Telnet Client'</c>
+		<c>tempcache 'Cache and temp files'</c>
 		<c>tftpclient 'TFTP client'</c>
+		<c>timetraveldebugger 'Time Travel Debugger (TTD)'</c>
 		<c>troubleshootingsvc 'Recommended Troubleshooting service'</c>
+		<c>unexpectedcodepath 'Unexpected Codepath'</c>
 		<c>universalprintsvc 'Universal Print Management Service'</c>
 		<c>userdeviceregistration 'User Device Registration'</c>
 		<c>waasassessment 'Windows Update Medic Service'</c>
@@ -425,6 +449,7 @@
 		<c>windows.cbspreview 'Windows Barcode Preview'</c>
 		<c>windows.devicesflow32 'Devices Flow - 32 bit'</c>
 		<c>windows.printdialog 'Windows Print'</c>
+		<c>windowstogo 'Windows To Go'</c>
 		<c>windowsupdate 'Windows Update'</c>
 		<c>xbox 'Xbox - Core'</c>
 	</RemoveComponents>
@@ -438,11 +463,11 @@
 			<Feature enabled="no">CapFrameX</Feature>
 			<Feature enabled="yes">Discord</Feature>
 			<Feature enabled="no">Docker</Feature>
+			<Feature enabled="no">EA Anti-Cheat</Feature>
 			<Feature enabled="yes">FileSharing</Feature>
 			<Feature enabled="no">Hyper-V</Feature>
 			<Feature enabled="no">iCloud</Feature>
 			<Feature enabled="no">Kaspersky</Feature>
-			<Feature enabled="no">ManualSetup</Feature>
 			<Feature enabled="yes">OfficeSupport</Feature>
 			<Feature enabled="yes">AppxSupport</Feature>
 			<Feature enabled="yes">Netflix</Feature>
@@ -463,6 +488,7 @@
 			<Feature enabled="no">SafeMode</Feature>
 			<Feature enabled="yes">TeamViewer</Feature>
 			<Feature enabled="no">Recommended-Tablet</Feature>
+			<Feature enabled="no">HostRefresh</Feature>
 			<Feature enabled="no">USBModem</Feature>
 			<Feature enabled="yes">USB</Feature>
 			<Feature enabled="yes">VideoPlayback</Feature>
@@ -505,7 +531,6 @@
 		<Feature name="Microsoft.Windows.Wifi.Client.Intel.Netwtw06~~~~0.0.1.0">false</Feature>
 		<Feature name="Microsoft.Windows.Wifi.Client.Intel.Netwtw08~~~~0.0.1.0">false</Feature>
 		<Feature name="Microsoft.Windows.Wifi.Client.Intel.Netwtw10~~~~0.0.1.0">false</Feature>
-		<Feature name="Browser.InternetExplorer~~~~0.0.11.0">false</Feature>
 		<Feature name="Microsoft.Windows.Wifi.Client.Marvel.Mrvlpcie8897~~~~0.0.1.0">false</Feature>
 		<Feature name="MathRecognizer~~~~0.0.1.0">false</Feature>
 		<Feature name="Microsoft.Windows.Sense.Client~~~~">false</Feature>
