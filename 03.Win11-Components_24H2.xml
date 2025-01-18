@@ -1,6 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Preset isAutoSaved="true" xmlns="urn:schemas-nliteos-com:pn.v1">
-	<Date>01/17/2025 03:16:16</Date>
+	<Date>01/17/2025 19:16:47</Date>
 	<AppInfo>
 		<Version>2025.1.10261</Version>
 		<Licensed>Yes</Licensed>
@@ -12,6 +12,7 @@
 		<GUID>{7473D167-A9E8-443B-9A1A-A364A37FE6BD}</GUID>
 	</ImageInfo>
 	<RemoveComponents AppRemovalMode="DISM">
+		<c>accessibility_cursors 'Mouse Pointers (Accessibility tools)'</c>
 		<c>activedirectory 'Active Directory'</c>
 		<c>adamclient 'Active Directory Lightweight Directory Services (AD LDS)'</c>
 		<c>asimov 'Telemetry Client'</c>
@@ -262,6 +263,7 @@
 		<c>driver_wvpci.inf</c>
 		<c>dvdplay 'DVD Play'</c>
 		<c>e2a4f912-2574-4a75-9bb0-0d023378592b 'App Resolver'</c>
+		<c>easeofaccessthemes 'Ease Of Access Themes'</c>
 		<c>edgehtml32 'HTML Viewer - 32 bit'</c>
 		<c>embeddedmode 'Embedded Mode'</c>
 		<c>errorreporting 'Windows Error Reporting'</c>
@@ -286,6 +288,7 @@
 		<c>iis 'Internet Information Server (IIS)'</c>
 		<c>indeo 'Intel Indeo Codecs'</c>
 		<c>insiderhub 'Windows Insider Program'</c>
+		<c>internetexplorer 'Internet Explorer'</c>
 		<c>internetexplorer32 'Internet Explorer - 32 bit'</c>
 		<c>iscsi 'iSCSI Initiator'</c>
 		<c>kerberos32 'Kerberos Client - 32 bit'</c>
@@ -339,6 +342,7 @@
 		<c>microsoft.win32webviewhost 'Desktop App Web Viewer'</c>
 		<c>microsoft.windows.apprep.chxapp 'SmartScreen'</c>
 		<c>microsoft.windows.assignedaccesslockapp 'Assigned Access Lock app'</c>
+		<c>microsoft.windows.augloop.cbs</c>
 		<c>microsoft.windows.capturepicker 'Capture Picker'</c>
 		<c>microsoft.windows.contentdeliverymanager 'Content Delivery Manager'</c>
 		<c>microsoft.windows.devhome 'Dev Home'</c>
