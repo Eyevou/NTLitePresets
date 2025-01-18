@@ -14,12 +14,15 @@ This is a file that contains tweaks to make Windows Explorer less bloated as wel
 
 This file removes the Taskbar pin/component for DevHome and Outlook (New). Safe for both Windows 10 and 11. Should be placed to run AFTER logon.
   
-▶ Windows 10: 
+▶ Windows 10: TBD
 
 ![windows10-preset](https://github.com/user-attachments/assets/cc6ef5fb-0b9f-4dce-b6d0-f0fba1a3a8d8)
 
 
 ▶ Windows 11: TBD
+
+![win11-desktop](https://github.com/user-attachments/assets/52402e6d-e9b5-4d22-b760-82552d13371e)
+
 
 ▶ autounattended.xml:
 
