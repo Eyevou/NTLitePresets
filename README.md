@@ -8,7 +8,7 @@
 
 `all.reg`
 
-This is a file that contains tweaks to make Windows Explorer less bloated as well as removing the Home and Windows Update/Insider tabs is Windows 11's Settings, Safe to work on Windows 10. Should be placed to run BEFORE logon.
+This is a file that contains tweaks to make Windows Explorer less bloated as well as removing the Home and Windows Update/Insider tabs in Windows 11's Settings. Can also be used on Windows 10. Should be placed to run BEFORE logon.
 
 `all_Disable-DevHome-OutlookNew.ps1`
 
