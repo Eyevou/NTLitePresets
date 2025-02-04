@@ -1,15 +1,15 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Preset isAutoSaved="true" xmlns="urn:schemas-nliteos-com:pn.v1">
-	<Date>01/15/2025 06:11:57</Date>
+	<Date>02/02/2025 07:06:20</Date>
 	<AppInfo>
-		<Version>2024.12.10221</Version>
+		<Version>2025.1.10275</Version>
 		<Licensed>Yes</Licensed>
 		<Protections>Yes</Protections>
-		<Host>Windows 10 Professional 22H2 x64 - 10.0.19045.5371 (en-US)</Host>
+		<Host>Windows 10 Professional 22H2 x64 - 10.0.19045.5440 (en-US)</Host>
 	</AppInfo>
 	<ImageInfo>
 		<Version mode="offline">Windows 10 Professional 22H2 x64 - 10.0.19045.5371 (en-US)</Version>
-		<GUID>{F3C78A8C-0C26-4029-AD3B-908E41514FD0}</GUID>
+		<GUID>{53BEA829-FD54-4757-94DE-5B9544B86FAB}</GUID>
 	</ImageInfo>
 	<RemoveComponents AppRemovalMode="DISM">
 		<c>activedirectory 'Active Directory'</c>
@@ -20,15 +20,23 @@
 		<c>assembly.net '.NET assembly cache'</c>
 		<c>assignedaccess 'Assigned Access'</c>
 		<c>axinstall 'ActiveX Installer Service'</c>
+		<c>azman32 'Authorization Manager - 32 bit'</c>
 		<c>azuread 'Azure Active Directory'</c>
 		<c>battery</c>
 		<c>bingsearch 'Bing Search (InboxApp)'</c>
 		<c>branchcacheclient 'BranchCache Client'</c>
 		<c>cellulartime 'Cellular Time'</c>
+		<c>certmgr32 'Certificate Manager - 32 bit'</c>
+		<c>commmc32 'COM+ (Component Services) (management console) - 32 bit'</c>
+		<c>compmgmt32 'Computer Management - 32 bit'</c>
 		<c>copilotpwa 'Windows Copilot (InboxApp)'</c>
 		<c>dcsvc 'Declared Configuration (DC) service'</c>
 		<c>desktopimgdownldr 'Desktop image downloader'</c>
 		<c>deviceupdatecenter 'Device Update Center'</c>
+		<c>devmgmt32 'Device Manager - 32 bit'</c>
+		<c>diagnostics 'Diagnostics and Troubleshooting'</c>
+		<c>diskdiagnosis 'Disk failure diagnostics'</c>
+		<c>diskmgmt32 'Disk Management - 32 bit'</c>
 		<c>diskquota 'Disk Quota'</c>
 		<c>diskquota32 'Disk Quota - 32 bit'</c>
 		<c>dolbyatmos 'Dolby Atmos codec pack'</c>
@@ -97,11 +105,14 @@
 		<c>enterpriseclientsync 'Work Folders Client'</c>
 		<c>errorreporting 'Windows Error Reporting'</c>
 		<c>eudcedit 'Private Character Editor'</c>
+		<c>eventviewer32 'Event Viewer - 32 bit'</c>
 		<c>f46d4000-fd22-4db4-ac8e-4e1ddde828fe 'Add Folder Suggestions dialog'</c>
 		<c>firstlogonanim 'First-logon animation'</c>
 		<c>font_holomd2 'Holo MDL2 Assets'</c>
 		<c>fontpreviewer32 'Font previewer - 32 bit'</c>
+		<c>fsmgmt32 'Shared Folders UI - 32 bit'</c>
 		<c>gameexplorer 'Game Explorer'</c>
+		<c>help 'Windows Help content'</c>
 		<c>hwsupport_fax 'Fax'</c>
 		<c>hwsupport_floppy 'Floppy disk'</c>
 		<c>hwsupport_infrared 'Infrared devices'</c>
@@ -121,6 +132,7 @@
 		<c>kerneldebug 'Kernel Debugging'</c>
 		<c>lcu 'Cumulative Update cache (LCU)'</c>
 		<c>lockscreens 'Lock Screen backgrounds'</c>
+		<c>lusrmgr32 'Local Users and Groups Manager - 32 bit'</c>
 		<c>lxss 'Windows Subsystem for Linux'</c>
 		<c>mail 'Windows Mail'</c>
 		<c>mailcommdll 'Windows Mail Communications Library'</c>
@@ -184,11 +196,14 @@
 		<c>microsoft.zunevideo 'Movies &amp; TV'</c>
 		<c>microsoftcorporationii.windowssubsystemforlinux 'Windows Subsystem for Linux'</c>
 		<c>mixedreality 'Windows Mixed Reality'</c>
+		<c>mmc32 'Microsoft Management Console (MMC) - 32 bit'</c>
 		<c>mobiledevicemanagement 'Mobile Device Management (MDM)'</c>
 		<c>mobilenetworkingapi32 'Mobile Networking API - 32 bit'</c>
 		<c>mobilepc</c>
 		<c>mobilepc_networkprojection 'Network Projection'</c>
 		<c>msmq 'Microsoft Message Queue (MSMQ)'</c>
+		<c>multipointconnector 'MultiPoint Connector'</c>
+		<c>ndu 'Network Data Usage Monitoring Driver'</c>
 		<c>netbios 'NetBIOS over TCP transport'</c>
 		<c>nfc 'Near Field Communication (NFC)'</c>
 		<c>notepad 'Notepad (Legacy)'</c>
@@ -211,6 +226,7 @@
 		<c>pushtoinstall 'Windows PushToInstall Service'</c>
 		<c>rasauto 'Remote Access Auto Connection Manager'</c>
 		<c>rdc 'Remote Differential Compression (RDC)'</c>
+		<c>rdmaping 'Remote Direct Memory Access (RDMA) ping tool'</c>
 		<c>rdpclient 'Remote Desktop Client'</c>
 		<c>rdpclient32 'Remote Desktop Client - 32 bit'</c>
 		<c>rdpserver 'Remote Desktop Server'</c>
@@ -227,6 +243,7 @@
 		<c>rotationmanager 'Auto-Rotation Manager'</c>
 		<c>screensavers</c>
 		<c>securitycenter 'Security Center'</c>
+		<c>servicesmmc32 'Services (management console) - 32 bit'</c>
 		<c>sharedaccess 'Internet Connection Sharing (ICS)'</c>
 		<c>simpletcp 'Simple TCP/IP services'</c>
 		<c>skypeortc 'Skype ORTC'</c>
@@ -237,18 +254,25 @@
 		<c>soundsdefault 'Sounds (Default)'</c>
 		<c>soundthemes 'Sound Themes'</c>
 		<c>sourcessxsdir 'Manual feature repository'</c>
+		<c>srumon 'Data Usage service'</c>
+		<c>stepsrecorder 'Steps Recorder'</c>
 		<c>supportdir 'Support directory'</c>
 		<c>synccenter 'Sync Center'</c>
 		<c>tabletpc 'Tablet PC'</c>
+		<c>taskschdmsc32 'Task Scheduler (management console) - 32 bit'</c>
 		<c>telnetclient 'Telnet Client'</c>
 		<c>tempcache 'Cache and temp files'</c>
 		<c>tftpclient 'TFTP client'</c>
+		<c>timetraveldebugger 'Time Travel Debugger (TTD)'</c>
+		<c>tpmmmc32 'Trusted Platform Module (TPM) (management console) - 32 bit'</c>
+		<c>troubleshootingsvc 'Recommended Troubleshooting service'</c>
 		<c>universalprintsvc 'Universal Print Management Service'</c>
 		<c>userdeviceregistration 'User Device Registration'</c>
 		<c>waasassessment 'Windows Update Medic Service'</c>
 		<c>wallet 'Wallet Service'</c>
 		<c>wallpaperdefault 'Wallpaper (Default)'</c>
 		<c>wallpapers 'Wallpapers (Themes)'</c>
+		<c>wfmmc32 'Windows Firewall (management console) - 32 bit'</c>
 		<c>windows.cbspreview 'Windows Barcode Preview'</c>
 		<c>windows.printdialog 'Windows Print'</c>
 		<c>windowstogo 'Windows To Go'</c>
@@ -294,6 +318,7 @@
 			<Feature enabled="no">SafeMode</Feature>
 			<Feature enabled="yes">TeamViewer</Feature>
 			<Feature enabled="no">Recommended-Tablet</Feature>
+			<Feature enabled="no">HostRefresh</Feature>
 			<Feature enabled="no">USBModem</Feature>
 			<Feature enabled="yes">USB</Feature>
 			<Feature enabled="yes">VideoPlayback</Feature>
