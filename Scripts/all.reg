@@ -53,6 +53,10 @@ Windows Registry Editor Version 5.00
 [-HKEY_CLASSES_ROOT\Wow6432Node\CLSID\{F02C1A0D-BE21-4350-88B0-7367FC96EF3C}}\ShellFolder]
 "Attributes"=dword:b0940064
 
+; Remove "Quick Access" from Explorer
+[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Explorer]
+"HubMode"=dword:00000001
+
 ; Restore old Right-click Context menu (Windows 11)
 [HKEY_CURRENT_USER\Software\Classes\CLSID\{86ca1aa0-34aa-4e8b-a509-50c905bae2a2}]
 @=""
@@ -71,10 +75,18 @@ Windows Registry Editor Version 5.00
 [HKEY_CURRENT_USER\Control Panel\Keyboard]
 "PrintScreenKeyForSnippingEnabled"=dword:00000000
 
-; Turns off "Sticky Keys"
+; Turns off "Sticky Keys" "Flags"="506"?
 [HKEY_CURRENT_USER\Control Panel\Accessibility\StickyKeys]
-"Flags"="506"
+"Flags"="2"
+
+; Turns off "Toggle Keys"
+[HKEY_CURRENT_USER\Control Panel\Accessibility\ToggleKeys]
+"Flags"="34"
 
 ; Hides the "Home" and "Windows Update" pages in the Settings App for Windows 11
 [HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Policies\Explorer]
 "SettingsPageVisibility"="hide:windowsupdate;home"
+
+; WINDOWS UPDATE: disable delivery optimization
+[HKEY_USERS\S-1-5-20\Software\Microsoft\Windows\CurrentVersion\DeliveryOptimization\Settings]
+"DownloadMode"=dword:00000000
