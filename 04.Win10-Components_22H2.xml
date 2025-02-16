@@ -1,15 +1,15 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Preset isAutoSaved="true" xmlns="urn:schemas-nliteos-com:pn.v1">
-	<Date>02/02/2025 07:06:20</Date>
+	<Date>02/16/2025 15:18:05</Date>
 	<AppInfo>
-		<Version>2025.1.10275</Version>
+		<Version>2025.2.10293</Version>
 		<Licensed>Yes</Licensed>
 		<Protections>Yes</Protections>
-		<Host>Windows 10 Professional 22H2 x64 - 10.0.19045.5440 (en-US)</Host>
+		<Host>Windows 10 Professional 22H2 x64 - 10.0.19045.5487 (en-US)</Host>
 	</AppInfo>
 	<ImageInfo>
-		<Version mode="offline">Windows 10 Professional 22H2 x64 - 10.0.19045.5371 (en-US)</Version>
-		<GUID>{53BEA829-FD54-4757-94DE-5B9544B86FAB}</GUID>
+		<Version mode="offline">Windows 10 Professional 22H2 x64 - 10.0.19045.5487 (en-US)</Version>
+		<GUID>{113D4B4F-0D60-4298-8316-C8A69F280D59}</GUID>
 	</ImageInfo>
 	<RemoveComponents AppRemovalMode="DISM">
 		<c>activedirectory 'Active Directory'</c>
@@ -25,6 +25,7 @@
 		<c>battery</c>
 		<c>bingsearch 'Bing Search (InboxApp)'</c>
 		<c>branchcacheclient 'BranchCache Client'</c>
+		<c>ceip 'CEIP (SQM)'</c>
 		<c>cellulartime 'Cellular Time'</c>
 		<c>certmgr32 'Certificate Manager - 32 bit'</c>
 		<c>commmc32 'COM+ (Component Services) (management console) - 32 bit'</c>
@@ -103,6 +104,7 @@
 		<c>edgeupdate 'Microsoft Edge Update'</c>
 		<c>embeddedmode 'Embedded Mode'</c>
 		<c>enterpriseclientsync 'Work Folders Client'</c>
+		<c>enterprisedataprotection 'Enterprise Data Protection (EDP/WIP)'</c>
 		<c>errorreporting 'Windows Error Reporting'</c>
 		<c>eudcedit 'Private Character Editor'</c>
 		<c>eventviewer32 'Event Viewer - 32 bit'</c>
@@ -194,7 +196,6 @@
 		<c>microsoft.yourphone 'Your Phone'</c>
 		<c>microsoft.zunemusic 'Groove Music'</c>
 		<c>microsoft.zunevideo 'Movies &amp; TV'</c>
-		<c>microsoftcorporationii.windowssubsystemforlinux 'Windows Subsystem for Linux'</c>
 		<c>mixedreality 'Windows Mixed Reality'</c>
 		<c>mmc32 'Microsoft Management Console (MMC) - 32 bit'</c>
 		<c>mobiledevicemanagement 'Mobile Device Management (MDM)'</c>
@@ -347,7 +348,6 @@
 		<Feature name="App.Support.QuickAssist~~~~0.0.1.0">false</Feature>
 		<Feature name="Microsoft.Windows.Notepad~~~~0.0.1.0">false</Feature>
 		<Feature name="Print.Management.Console~~~~0.0.1.0">false</Feature>
-		<Feature name="App.StepsRecorder~~~~0.0.1.0">false</Feature>
 		<Feature name="WCF-TCP-PortSharing45">false</Feature>
 		<Feature name="WCF-Services45">false</Feature>
 		<Feature name="Print.Fax.Scan~~~~0.0.1.0">false</Feature>
