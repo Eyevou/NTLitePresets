@@ -1,37 +1,48 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Preset isAutoSaved="true" xmlns="urn:schemas-nliteos-com:pn.v1">
-	<Date>01/17/2025 19:16:47</Date>
+	<Date>02/11/2025 10:50:12</Date>
 	<AppInfo>
-		<Version>2025.1.10261</Version>
+		<Version>2025.2.10293</Version>
 		<Licensed>Yes</Licensed>
 		<Protections>Yes</Protections>
-		<Host>Windows 10 Professional 22H2 x64 - 10.0.19045.5371 (en-US)</Host>
+		<Host>Windows 10 Professional 22H2 x64 - 10.0.19045.5440 (en-US)</Host>
 	</AppInfo>
 	<ImageInfo>
 		<Version mode="offline">Windows 11 Professional 24H2 x64 - 10.0.26100.2894 (en-US)</Version>
-		<GUID>{7473D167-A9E8-443B-9A1A-A364A37FE6BD}</GUID>
+		<GUID>{EB444B65-C7E3-4E5A-AD67-ABE2774E89D6}</GUID>
 	</ImageInfo>
 	<RemoveComponents AppRemovalMode="DISM">
 		<c>accessibility_cursors 'Mouse Pointers (Accessibility tools)'</c>
+		<c>accessibility_magnifier 'Screen Magnifier'</c>
 		<c>activedirectory 'Active Directory'</c>
 		<c>adamclient 'Active Directory Lightweight Directory Services (AD LDS)'</c>
 		<c>asimov 'Telemetry Client'</c>
 		<c>assembly.net '.NET assembly cache'</c>
 		<c>assignedaccess 'Assigned Access'</c>
 		<c>axinstall 'ActiveX Installer Service'</c>
+		<c>azman32 'Authorization Manager - 32 bit'</c>
 		<c>azuread 'Azure Active Directory'</c>
 		<c>backgroundmediaplayer32 'Background Media Player - 32 bit'</c>
 		<c>battery</c>
+		<c>bingsearch 'Bing Search (InboxApp)'</c>
 		<c>branchcacheclient 'BranchCache Client'</c>
 		<c>captureservice 'Capture Service'</c>
+		<c>ceip 'CEIP (SQM)'</c>
 		<c>cellulartime 'Cellular Time'</c>
+		<c>certmgr32 'Certificate Manager - 32 bit'</c>
 		<c>clipchamp.clipchamp</c>
+		<c>commmc32 'COM+ (Component Services) (management console) - 32 bit'</c>
+		<c>compmgmt32 'Computer Management - 32 bit'</c>
+		<c>containers 'Containers (Application Guard)'</c>
 		<c>copilotpwa 'Windows Copilot (InboxApp)'</c>
 		<c>cursors 'Mouse Pointers'</c>
 		<c>desktopimgdownldr 'Desktop image downloader'</c>
+		<c>deviceguard 'Device Guard'</c>
 		<c>deviceupdatecenter 'Device Update Center'</c>
+		<c>devmgmt32 'Device Manager - 32 bit'</c>
 		<c>diagnostics 'Diagnostics and Troubleshooting'</c>
 		<c>diskdiagnosis 'Disk failure diagnostics'</c>
+		<c>diskmgmt32 'Disk Management - 32 bit'</c>
 		<c>diskquota32 'Disk Quota - 32 bit'</c>
 		<c>dolbyatmos 'Dolby Atmos codec pack'</c>
 		<c>driver_battery.inf</c>
@@ -266,13 +277,17 @@
 		<c>easeofaccessthemes 'Ease Of Access Themes'</c>
 		<c>edgehtml32 'HTML Viewer - 32 bit'</c>
 		<c>embeddedmode 'Embedded Mode'</c>
+		<c>enterprisedataprotection 'Enterprise Data Protection (EDP/WIP)'</c>
 		<c>errorreporting 'Windows Error Reporting'</c>
 		<c>errorreportingapi 'Windows Error Reporting API'</c>
+		<c>eudcedit 'Private Character Editor'</c>
+		<c>eventviewer32 'Event Viewer - 32 bit'</c>
 		<c>f46d4000-fd22-4db4-ac8e-4e1ddde828fe 'Add Folder Suggestions dialog'</c>
 		<c>fciclient 'File Server Resource Manager'</c>
 		<c>firstlogonanim 'First-logon animation'</c>
 		<c>flipgridpwa 'Flipgrid PWA (InboxApp)'</c>
 		<c>fontpreviewer32 'Font previewer - 32 bit'</c>
+		<c>fsmgmt32 'Shared Folders UI - 32 bit'</c>
 		<c>gameexplorer 'Game Explorer'</c>
 		<c>hbaapi 'Host Bus Adapter (HBA) API'</c>
 		<c>help 'Windows Help content'</c>
@@ -291,12 +306,14 @@
 		<c>internetexplorer 'Internet Explorer'</c>
 		<c>internetexplorer32 'Internet Explorer - 32 bit'</c>
 		<c>iscsi 'iSCSI Initiator'</c>
+		<c>isolatedusermode 'Virtualization-based security (VBS)'</c>
 		<c>kerberos32 'Kerberos Client - 32 bit'</c>
 		<c>kerneldebug 'Kernel Debugging'</c>
 		<c>la57 '57-bit Linear Addressing'</c>
 		<c>lcu 'Cumulative Update cache (LCU)'</c>
 		<c>location 'Location Service'</c>
 		<c>lockscreens 'Lock Screen backgrounds'</c>
+		<c>lusrmgr32 'Local Users and Groups Manager - 32 bit'</c>
 		<c>lxss 'Windows Subsystem for Linux'</c>
 		<c>mail 'Windows Mail'</c>
 		<c>mailcommdll 'Windows Mail Communications Library'</c>
@@ -304,7 +321,9 @@
 		<c>mapcontrol 'Map Control'</c>
 		<c>mediacodec32 'Windows Media Codecs - 32 bit'</c>
 		<c>mediafoundation32 'Media Foundation - 32 bit'</c>
+		<c>mediaplayer 'Windows Media Player'</c>
 		<c>mediaplayer32 'Windows Media Player - 32 bit'</c>
+		<c>mediaplayernetworksharing 'WMP Network Sharing Service'</c>
 		<c>mediaplayernetworksharing32 'WMP Network Sharing Service - 32 bit'</c>
 		<c>messagingsvc 'Messaging Service'</c>
 		<c>microsoft.applicationcompatibilityenhancements 'Windows Application Compatibility Enhancements'</c>
@@ -375,7 +394,9 @@
 		<c>microsoftwindows.crossdevice 'Cross Device Experience Host'</c>
 		<c>microsoftwindows.lkg.accountsservice 'LastKnownGood - AccountsService'</c>
 		<c>microsoftwindows.lkg.irisservice 'LastKnownGood - IrisService'</c>
+		<c>microsoftwindows.lkg.twinsxs 'LastKnownGood - TwinSxS'</c>
 		<c>mixedreality 'Windows Mixed Reality'</c>
+		<c>mmc32 'Microsoft Management Console (MMC) - 32 bit'</c>
 		<c>mpe 'Microsoft Privacy Engine'</c>
 		<c>msmq 'Microsoft Message Queue (MSMQ)'</c>
 		<c>msteams 'Microsoft Teams'</c>
@@ -390,6 +411,7 @@
 		<c>otherthemes 'Windows Personalization themes'</c>
 		<c>outlookpwa 'Outlook PWA (InboxApp)'</c>
 		<c>payments</c>
+		<c>penservice 'Pen Service'</c>
 		<c>phonesvc 'Phone Service'</c>
 		<c>photoviewer 'Photo Viewer'</c>
 		<c>photoviewer32 'Photo Viewer - 32 bit'</c>
@@ -420,6 +442,7 @@
 		<c>retaildemo 'Retail Demo Content'</c>
 		<c>rotationmanager 'Auto-Rotation Manager'</c>
 		<c>screensavers</c>
+		<c>servicesmmc32 'Services (management console) - 32 bit'</c>
 		<c>sharedpc 'Shared PC mode'</c>
 		<c>simpletcp 'Simple TCP/IP services'</c>
 		<c>skypeortc 'Skype ORTC'</c>
@@ -432,15 +455,19 @@
 		<c>sourcessxsdir 'Manual feature repository'</c>
 		<c>srumon 'Data Usage service'</c>
 		<c>startexperiencesapp 'Start Experiences (InboxApp)'</c>
+		<c>stepsrecorder 'Steps Recorder'</c>
+		<c>storageqos 'Storage Quality of Service (Storage QoS)'</c>
 		<c>supportdir 'Support directory'</c>
 		<c>synccenter 'Sync Center'</c>
 		<c>systemguard 'System Guard'</c>
 		<c>tabletpc 'Tablet PC'</c>
 		<c>targetedcontent32 'Targeted Content Service - 32 bit'</c>
+		<c>taskschdmsc32 'Task Scheduler (management console) - 32 bit'</c>
 		<c>telnetclient 'Telnet Client'</c>
 		<c>tempcache 'Cache and temp files'</c>
 		<c>tftpclient 'TFTP client'</c>
 		<c>timetraveldebugger 'Time Travel Debugger (TTD)'</c>
+		<c>tpmmmc32 'Trusted Platform Module (TPM) (management console) - 32 bit'</c>
 		<c>troubleshootingsvc 'Recommended Troubleshooting service'</c>
 		<c>unexpectedcodepath 'Unexpected Codepath'</c>
 		<c>universalprintsvc 'Universal Print Management Service'</c>
@@ -450,6 +477,7 @@
 		<c>wallpaperdefault 'Wallpaper (Default)'</c>
 		<c>wallpapers 'Wallpapers (Themes)'</c>
 		<c>webthreatdefense 'Web Threat Defense Service'</c>
+		<c>wfmmc32 'Windows Firewall (management console) - 32 bit'</c>
 		<c>windows.cbspreview 'Windows Barcode Preview'</c>
 		<c>windows.devicesflow32 'Devices Flow - 32 bit'</c>
 		<c>windows.printdialog 'Windows Print'</c>
