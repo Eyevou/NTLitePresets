@@ -85,7 +85,7 @@ Windows Registry Editor Version 5.00
 
 ; Hides the "Home" and "Windows Update" pages in the Settings App for Windows 11
 [HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Policies\Explorer]
-"SettingsPageVisibility"="hide:windowsupdate;home;gaming"
+"SettingsPageVisibility"="hide:windowsupdate;home;gaming-gamebar;gaming-gamedvr;gaming-gamemode"
 
 ; WINDOWS UPDATE: disable delivery optimization
 [HKEY_USERS\S-1-5-20\Software\Microsoft\Windows\CurrentVersion\DeliveryOptimization\Settings]
