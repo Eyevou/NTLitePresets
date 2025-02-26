@@ -8,7 +8,7 @@
 
 `all.reg`
 
-This is a file that contains tweaks to make Windows Explorer less bloated. Removes Home, Gaming, and Windows Update/Insider tabs in the Settings App for Windows 11. Can also be used on Windows 10. Should be placed to run AFTER logon.
+This is a file that contains tweaks to make Windows Explorer less bloated. Removes Home, Gaming, and Windows Update tabs in the Settings App for Windows 11. Can also be used on Windows 10. Should be placed to run AFTER logon.
 
 `all_Disable-DevHome-OutlookNew.ps1`
 
