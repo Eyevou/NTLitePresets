@@ -1,15 +1,15 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Preset isAutoSaved="true" xmlns="urn:schemas-nliteos-com:pn.v1">
-	<Date>02/11/2025 10:50:12</Date>
+	<Date>03/17/2025 06:20:23</Date>
 	<AppInfo>
-		<Version>2025.2.10293</Version>
+		<Version>2025.3.10349</Version>
 		<Licensed>Yes</Licensed>
 		<Protections>Yes</Protections>
-		<Host>Windows 10 Professional 22H2 x64 - 10.0.19045.5440 (en-US)</Host>
+		<Host>Windows 10 Professional 22H2 x64 - 10.0.19045.5608 (en-US)</Host>
 	</AppInfo>
 	<ImageInfo>
-		<Version mode="offline">Windows 11 Professional 24H2 x64 - 10.0.26100.2894 (en-US)</Version>
-		<GUID>{EB444B65-C7E3-4E5A-AD67-ABE2774E89D6}</GUID>
+		<Version mode="offline">Windows 11 Professional 24H2 x64 - 10.0.26100.3476 (en-US)</Version>
+		<GUID>{61C74AEB-4531-4672-BCCC-BCB00362B874}</GUID>
 	</ImageInfo>
 	<RemoveComponents AppRemovalMode="DISM">
 		<c>accessibility_cursors 'Mouse Pointers (Accessibility tools)'</c>
@@ -272,11 +272,11 @@
 		<c>driver_wvmic_ext.inf</c>
 		<c>driver_wvmic_vss.inf</c>
 		<c>driver_wvpci.inf</c>
-		<c>dvdplay 'DVD Play'</c>
 		<c>e2a4f912-2574-4a75-9bb0-0d023378592b 'App Resolver'</c>
 		<c>easeofaccessthemes 'Ease Of Access Themes'</c>
 		<c>edgehtml32 'HTML Viewer - 32 bit'</c>
 		<c>embeddedmode 'Embedded Mode'</c>
+		<c>enterpriseclientsync 'Work Folders Client'</c>
 		<c>enterprisedataprotection 'Enterprise Data Protection (EDP/WIP)'</c>
 		<c>errorreporting 'Windows Error Reporting'</c>
 		<c>errorreportingapi 'Windows Error Reporting API'</c>
@@ -311,6 +311,7 @@
 		<c>kerneldebug 'Kernel Debugging'</c>
 		<c>la57 '57-bit Linear Addressing'</c>
 		<c>lcu 'Cumulative Update cache (LCU)'</c>
+		<c>livecaptions 'Live Captions'</c>
 		<c>location 'Location Service'</c>
 		<c>lockscreens 'Lock Screen backgrounds'</c>
 		<c>lusrmgr32 'Local Users and Groups Manager - 32 bit'</c>
@@ -387,14 +388,10 @@
 		<c>microsoft.yourphone 'Phone Link'</c>
 		<c>microsoft.zunemusic 'Windows Media Player'</c>
 		<c>microsoftcorporationii.quickassist 'Quick Assist'</c>
-		<c>microsoftcorporationii.windowssubsystemforlinux 'Windows Subsystem for Linux'</c>
 		<c>microsoftwindows.client.aix 'Windows Copilot (Windows Feature Experience Pack)'</c>
 		<c>microsoftwindows.client.photon 'Windows Feature Experience Pack - Photon'</c>
 		<c>microsoftwindows.client.webexperience 'Windows Web Experience Pack'</c>
 		<c>microsoftwindows.crossdevice 'Cross Device Experience Host'</c>
-		<c>microsoftwindows.lkg.accountsservice 'LastKnownGood - AccountsService'</c>
-		<c>microsoftwindows.lkg.irisservice 'LastKnownGood - IrisService'</c>
-		<c>microsoftwindows.lkg.twinsxs 'LastKnownGood - TwinSxS'</c>
 		<c>mixedreality 'Windows Mixed Reality'</c>
 		<c>mmc32 'Microsoft Management Console (MMC) - 32 bit'</c>
 		<c>mpe 'Microsoft Privacy Engine'</c>
@@ -478,6 +475,7 @@
 		<c>wallpapers 'Wallpapers (Themes)'</c>
 		<c>webthreatdefense 'Web Threat Defense Service'</c>
 		<c>wfmmc32 'Windows Firewall (management console) - 32 bit'</c>
+		<c>widgetsplatformruntimeapp 'Widgets Platform Runtime (InboxApp)'</c>
 		<c>windows.cbspreview 'Windows Barcode Preview'</c>
 		<c>windows.devicesflow32 'Devices Flow - 32 bit'</c>
 		<c>windows.printdialog 'Windows Print'</c>
@@ -552,6 +550,8 @@
 		<Feature name="OneCoreUAP.OneSync~~~~0.0.1.0">false</Feature>
 		<Feature name="Microsoft.Wallpapers.Extended~~~~0.0.1.0">false</Feature>
 		<Feature name="Hello.Face.20134~~~~0.0.1.0">false</Feature>
+		<Feature name="Microsoft.Windows.Ethernet.Client.Intel.E1i68x64~~~~0.0.1.0">false</Feature>
+		<Feature name="Microsoft.Windows.Ethernet.Client.Intel.E2f68~~~~0.0.1.0">false</Feature>
 		<Feature name="Microsoft.Windows.Wifi.Client.Intel.Netwbw02~~~~0.0.1.0">false</Feature>
 		<Feature name="Microsoft.Windows.Wifi.Client.Intel.Netwew00~~~~0.0.1.0">false</Feature>
 		<Feature name="Microsoft.Windows.Wifi.Client.Intel.Netwew01~~~~0.0.1.0">false</Feature>
@@ -580,10 +580,8 @@
 		<Feature name="Windows.TerminalServices.AppServerClient~~~~">false</Feature>
 		<Feature name="Windows.SimpleTCP.Content~~~~">false</Feature>
 		<Feature name="Windows.SmbDirect~~~~">false</Feature>
-		<Feature name="App.StepsRecorder~~~~0.0.1.0">false</Feature>
 		<Feature name="Windows.Telnet.Client~~~~">false</Feature>
 		<Feature name="Windows.TFTP.Client~~~~">false</Feature>
-		<Feature name="VBSCRIPT~~~~">false</Feature>
 		<Feature name="Windows.HyperV.OptionalFeature.VirtualMachinePlatform.Client.Disabled~~~~">false</Feature>
 		<Feature name="Microsoft.Windows.Ethernet.Client.Vmware.Vmxnet3~~~~0.0.1.0">false</Feature>
 		<Feature name="Media.WindowsMediaPlayer~~~~0.0.12.0">false</Feature>
