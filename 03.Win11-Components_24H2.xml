@@ -1,15 +1,15 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Preset isAutoSaved="true" xmlns="urn:schemas-nliteos-com:pn.v1">
-	<Date>03/17/2025 06:20:23</Date>
+	<Date>03/22/2025 19:57:28</Date>
 	<AppInfo>
-		<Version>2025.3.10349</Version>
+		<Version>2025.3.10351</Version>
 		<Licensed>Yes</Licensed>
 		<Protections>Yes</Protections>
 		<Host>Windows 10 Professional 22H2 x64 - 10.0.19045.5608 (en-US)</Host>
 	</AppInfo>
 	<ImageInfo>
 		<Version mode="offline">Windows 11 Professional 24H2 x64 - 10.0.26100.3476 (en-US)</Version>
-		<GUID>{61C74AEB-4531-4672-BCCC-BCB00362B874}</GUID>
+		<GUID>{84EE3971-8854-460A-9C74-95F2520E8D81}</GUID>
 	</ImageInfo>
 	<RemoveComponents AppRemovalMode="DISM">
 		<c>accessibility_cursors 'Mouse Pointers (Accessibility tools)'</c>
@@ -586,9 +586,7 @@
 		<Feature name="Microsoft.Windows.Ethernet.Client.Vmware.Vmxnet3~~~~0.0.1.0">false</Feature>
 		<Feature name="Media.WindowsMediaPlayer~~~~0.0.12.0">false</Feature>
 		<Feature name="Windows.Client.ProjFS~~~~">false</Feature>
-		<Feature name="SearchEngine-Client-Package">false</Feature>
 		<Feature name="Windows.WinOcr~~~~">false</Feature>
-		<Feature name="WorkFolders-Client">false</Feature>
 		<Feature name="Windows.WorkFolders.Client~~~~">false</Feature>
 	</Features>
 	<Packages>
