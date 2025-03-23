@@ -1,6 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Preset isAutoSaved="true" xmlns="urn:schemas-nliteos-com:pn.v1">
-	<Date>03/22/2025 19:57:28</Date>
+	<Date>03/23/2025 06:14:39</Date>
 	<AppInfo>
 		<Version>2025.3.10351</Version>
 		<Licensed>Yes</Licensed>
@@ -22,7 +22,6 @@
 		<c>axinstall 'ActiveX Installer Service'</c>
 		<c>azman32 'Authorization Manager - 32 bit'</c>
 		<c>azuread 'Azure Active Directory'</c>
-		<c>backgroundmediaplayer32 'Background Media Player - 32 bit'</c>
 		<c>battery</c>
 		<c>bingsearch 'Bing Search (InboxApp)'</c>
 		<c>branchcacheclient 'BranchCache Client'</c>
@@ -44,7 +43,6 @@
 		<c>diskdiagnosis 'Disk failure diagnostics'</c>
 		<c>diskmgmt32 'Disk Management - 32 bit'</c>
 		<c>diskquota32 'Disk Quota - 32 bit'</c>
-		<c>dolbyatmos 'Dolby Atmos codec pack'</c>
 		<c>driver_battery.inf</c>
 		<c>driver_c_barcodescanner.inf</c>
 		<c>driver_c_battery.inf</c>
@@ -320,8 +318,6 @@
 		<c>mailcommdll 'Windows Mail Communications Library'</c>
 		<c>manifestbackup 'Manifest Backup (WinSxS\Backup)'</c>
 		<c>mapcontrol 'Map Control'</c>
-		<c>mediacodec32 'Windows Media Codecs - 32 bit'</c>
-		<c>mediafoundation32 'Media Foundation - 32 bit'</c>
 		<c>mediaplayer 'Windows Media Player'</c>
 		<c>mediaplayer32 'Windows Media Player - 32 bit'</c>
 		<c>mediaplayernetworksharing 'WMP Network Sharing Service'</c>
