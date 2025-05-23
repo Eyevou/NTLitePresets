@@ -1,15 +1,15 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Preset isAutoSaved="true" xmlns="urn:schemas-nliteos-com:pn.v1">
-	<Date>02/16/2025 15:18:05</Date>
+	<Date>05/22/2025 21:27:24</Date>
 	<AppInfo>
-		<Version>2025.2.10293</Version>
+		<Version>2025.5.10428</Version>
 		<Licensed>Yes</Licensed>
 		<Protections>Yes</Protections>
-		<Host>Windows 10 Professional 22H2 x64 - 10.0.19045.5487 (en-US)</Host>
+		<Host>Windows 11 Professional 24H2 x64 - 10.0.26100.4061 (en-US)</Host>
 	</AppInfo>
 	<ImageInfo>
-		<Version mode="offline">Windows 10 Professional 22H2 x64 - 10.0.19045.5487 (en-US)</Version>
-		<GUID>{113D4B4F-0D60-4298-8316-C8A69F280D59}</GUID>
+		<Version mode="offline">Windows 10 Professional 22H2 x64 - 10.0.19045.5856 (en-US)</Version>
+		<GUID>{93E6CCC7-407E-4DCE-BE22-D039E912B8F9}</GUID>
 	</ImageInfo>
 	<RemoveComponents AppRemovalMode="DISM">
 		<c>activedirectory 'Active Directory'</c>
@@ -25,7 +25,6 @@
 		<c>battery</c>
 		<c>bingsearch 'Bing Search (InboxApp)'</c>
 		<c>branchcacheclient 'BranchCache Client'</c>
-		<c>ceip 'CEIP (SQM)'</c>
 		<c>cellulartime 'Cellular Time'</c>
 		<c>certmgr32 'Certificate Manager - 32 bit'</c>
 		<c>commmc32 'COM+ (Component Services) (management console) - 32 bit'</c>
@@ -104,7 +103,6 @@
 		<c>edgeupdate 'Microsoft Edge Update'</c>
 		<c>embeddedmode 'Embedded Mode'</c>
 		<c>enterpriseclientsync 'Work Folders Client'</c>
-		<c>enterprisedataprotection 'Enterprise Data Protection (EDP/WIP)'</c>
 		<c>errorreporting 'Windows Error Reporting'</c>
 		<c>eudcedit 'Private Character Editor'</c>
 		<c>eventviewer32 'Event Viewer - 32 bit'</c>
@@ -171,6 +169,7 @@
 		<c>microsoft.wallet 'Microsoft Pay'</c>
 		<c>microsoft.webmediaextensions 'Web Media Extensions'</c>
 		<c>microsoft.webpimageextension 'Webp Image Extensions'</c>
+		<c>microsoft.win32webviewhost 'Desktop App Web Viewer'</c>
 		<c>microsoft.windows.apprep.chxapp 'SmartScreen'</c>
 		<c>microsoft.windows.assignedaccesslockapp 'Assigned Access Lock app'</c>
 		<c>microsoft.windows.callingshellapp 'Call'</c>
@@ -273,6 +272,7 @@
 		<c>wallet 'Wallet Service'</c>
 		<c>wallpaperdefault 'Wallpaper (Default)'</c>
 		<c>wallpapers 'Wallpapers (Themes)'</c>
+		<c>webview2core 'WebView2 Runtime (Core)'</c>
 		<c>wfmmc32 'Windows Firewall (management console) - 32 bit'</c>
 		<c>windows.cbspreview 'Windows Barcode Preview'</c>
 		<c>windows.printdialog 'Windows Print'</c>
