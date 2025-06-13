@@ -1,15 +1,15 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Preset isAutoSaved="true" xmlns="urn:schemas-nliteos-com:pn.v1">
-	<Date>03/23/2025 06:14:39</Date>
+	<Date>06/03/2025 21:55:12</Date>
 	<AppInfo>
-		<Version>2025.3.10351</Version>
+		<Version>2025.6.10456</Version>
 		<Licensed>Yes</Licensed>
 		<Protections>Yes</Protections>
-		<Host>Windows 10 Professional 22H2 x64 - 10.0.19045.5608 (en-US)</Host>
+		<Host>Windows 10 Professional 22H2 x64 - 10.0.19045.5856 (en-US)</Host>
 	</AppInfo>
 	<ImageInfo>
-		<Version mode="offline">Windows 11 Professional 24H2 x64 - 10.0.26100.3476 (en-US)</Version>
-		<GUID>{84EE3971-8854-460A-9C74-95F2520E8D81}</GUID>
+		<Version mode="offline">Windows 11 Professional 24H2 x64 - 10.0.26100.4061 (en-US)</Version>
+		<GUID>{D2275429-AD1E-4970-97E9-5BFAFD38129F}</GUID>
 	</ImageInfo>
 	<RemoveComponents AppRemovalMode="DISM">
 		<c>accessibility_cursors 'Mouse Pointers (Accessibility tools)'</c>
@@ -55,6 +55,9 @@
 		<c>driver_c_modem.inf</c>
 		<c>driver_c_printer.inf</c>
 		<c>driver_c_receiptprinter.inf</c>
+		<c>driver_c_smartcard.inf</c>
+		<c>driver_c_smartcardfilter.inf</c>
+		<c>driver_c_smartcardreader.inf</c>
 		<c>driver_c_volsnap.inf</c>
 		<c>driver_cht4vx64.inf</c>
 		<c>driver_cmbatt.inf</c>
@@ -224,6 +227,7 @@
 		<c>driver_mdmzyxlg.inf</c>
 		<c>driver_mgtdyn.inf</c>
 		<c>driver_modemcsa.inf</c>
+		<c>driver_msclmd.inf</c>
 		<c>driver_ntprint.inf</c>
 		<c>driver_ntprint4.inf</c>
 		<c>driver_printqueue.inf</c>
@@ -241,14 +245,18 @@
 		<c>driver_rawsilo.inf</c>
 		<c>driver_rdpbus.inf</c>
 		<c>driver_remoteposdrv.inf</c>
+		<c>driver_scrawpdo.inf</c>
+		<c>driver_scunknown.inf</c>
 		<c>driver_spaceport.inf</c>
 		<c>driver_termbus.inf</c>
 		<c>driver_termkbd.inf</c>
 		<c>driver_termmou.inf</c>
+		<c>driver_tpmvsc.inf</c>
 		<c>driver_ts_generic.inf</c>
 		<c>driver_tsgenericusbdriver.inf</c>
 		<c>driver_tsprint.inf</c>
 		<c>driver_tsusbhubfilter.inf</c>
+		<c>driver_usbcciddriver.inf</c>
 		<c>driver_usbcir.inf</c>
 		<c>driver_usbprint.inf</c>
 		<c>driver_volsnap.inf</c>
@@ -261,6 +269,7 @@
 		<c>driver_ws3cap.inf</c>
 		<c>driver_wstorflt.inf</c>
 		<c>driver_wstorvsc.inf</c>
+		<c>driver_wudfusbcciddriver.inf</c>
 		<c>driver_wvid.inf</c>
 		<c>driver_wvmbus.inf</c>
 		<c>driver_wvmbushid.inf</c>
@@ -273,6 +282,10 @@
 		<c>e2a4f912-2574-4a75-9bb0-0d023378592b 'App Resolver'</c>
 		<c>easeofaccessthemes 'Ease Of Access Themes'</c>
 		<c>edgehtml32 'HTML Viewer - 32 bit'</c>
+		<c>edgeupdate 'Microsoft Edge Update'</c>
+		<c>edgewebview 'Microsoft Edge WebView'</c>
+		<c>edgewebviewlegacy 'WebView2 Runtime (Legacy)'</c>
+		<c>embeddedexperience 'Device Lockdown (Embedded Experience)'</c>
 		<c>embeddedmode 'Embedded Mode'</c>
 		<c>enterpriseclientsync 'Work Folders Client'</c>
 		<c>enterprisedataprotection 'Enterprise Data Protection (EDP/WIP)'</c>
@@ -289,6 +302,7 @@
 		<c>gameexplorer 'Game Explorer'</c>
 		<c>hbaapi 'Host Bus Adapter (HBA) API'</c>
 		<c>help 'Windows Help content'</c>
+		<c>hotpatch 'Windows Hotpatching'</c>
 		<c>hwsupport_floppy 'Floppy disk'</c>
 		<c>hwsupport_infrared 'Infrared devices'</c>
 		<c>hwsupport_internetprintingclient 'Internet Printing Client'</c>
@@ -296,6 +310,7 @@
 		<c>hwsupport_modemsettings 'Shared modem settings (mdmgl*.inf)'</c>
 		<c>hwsupport_printer 'Printing'</c>
 		<c>hwsupport_scanner 'Scanner'</c>
+		<c>hwsupport_smartcard 'Smartcard'</c>
 		<c>hwsupport_telephony 'Telephony'</c>
 		<c>hwsupport_tv 'TV Tuner codecs and support'</c>
 		<c>iis 'Internet Information Server (IIS)'</c>
@@ -452,9 +467,9 @@
 		<c>storageqos 'Storage Quality of Service (Storage QoS)'</c>
 		<c>supportdir 'Support directory'</c>
 		<c>synccenter 'Sync Center'</c>
-		<c>systemguard 'System Guard'</c>
 		<c>tabletpc 'Tablet PC'</c>
 		<c>targetedcontent32 'Targeted Content Service - 32 bit'</c>
+		<c>taskmanager32 'Task Manager - 32 bit'</c>
 		<c>taskschdmsc32 'Task Scheduler (management console) - 32 bit'</c>
 		<c>telnetclient 'Telnet Client'</c>
 		<c>tempcache 'Cache and temp files'</c>
@@ -470,6 +485,7 @@
 		<c>wallpaperdefault 'Wallpaper (Default)'</c>
 		<c>wallpapers 'Wallpapers (Themes)'</c>
 		<c>webthreatdefense 'Web Threat Defense Service'</c>
+		<c>webview2core 'WebView2 Runtime (Core)'</c>
 		<c>wfmmc32 'Windows Firewall (management console) - 32 bit'</c>
 		<c>widgetsplatformruntimeapp 'Widgets Platform Runtime (InboxApp)'</c>
 		<c>windows.cbspreview 'Windows Barcode Preview'</c>
@@ -538,7 +554,6 @@
 	</Compatibility>
 	<Features>
 		<Feature name="Windows.Kernel.LA57~~~~0.0.1.0">false</Feature>
-		<Feature name="Windows.DirectoryServices.ADAM.Client.Content~~~~">false</Feature>
 		<Feature name="Microsoft.Windows.Wifi.Client.Broadcom.Bcmpciedhd63~~~~0.0.1.0">false</Feature>
 		<Feature name="Microsoft.Windows.Wifi.Client.Broadcom.Bcmwl63a~~~~0.0.1.0">false</Feature>
 		<Feature name="Microsoft.Windows.Wifi.Client.Broadcom.Bcmwl63al~~~~0.0.1.0">false</Feature>
@@ -561,7 +576,7 @@
 		<Feature name="Microsoft.Windows.Wifi.Client.Intel.Netwtw10~~~~0.0.1.0">false</Feature>
 		<Feature name="Microsoft.Windows.Wifi.Client.Marvel.Mrvlpcie8897~~~~0.0.1.0">false</Feature>
 		<Feature name="MathRecognizer~~~~0.0.1.0">false</Feature>
-		<Feature name="Microsoft.Windows.Sense.Client~~~~">false</Feature>
+		<Feature name="Edge.Webview2.Platform~~~~">false</Feature>
 		<Feature name="Microsoft.Windows.Notepad.System~~~~0.0.1.0">false</Feature>
 		<Feature name="Print.Management.Console~~~~0.0.1.0">false</Feature>
 		<Feature name="Microsoft.Windows.Wifi.Client.Qualcomm.Athw8x~~~~0.0.1.0">false</Feature>
@@ -574,9 +589,7 @@
 		<Feature name="Microsoft.Windows.Wifi.Client.Realtek.Rtwlane01~~~~0.0.1.0">false</Feature>
 		<Feature name="Microsoft.Windows.Wifi.Client.Realtek.Rtwlane13~~~~0.0.1.0">false</Feature>
 		<Feature name="Windows.TerminalServices.AppServerClient~~~~">false</Feature>
-		<Feature name="Windows.SimpleTCP.Content~~~~">false</Feature>
 		<Feature name="Windows.SmbDirect~~~~">false</Feature>
-		<Feature name="Windows.Telnet.Client~~~~">false</Feature>
 		<Feature name="Windows.TFTP.Client~~~~">false</Feature>
 		<Feature name="Windows.HyperV.OptionalFeature.VirtualMachinePlatform.Client.Disabled~~~~">false</Feature>
 		<Feature name="Microsoft.Windows.Ethernet.Client.Vmware.Vmxnet3~~~~0.0.1.0">false</Feature>
