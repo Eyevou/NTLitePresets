@@ -1,15 +1,15 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Preset isAutoSaved="true" xmlns="urn:schemas-nliteos-com:pn.v1">
-	<Date>06/03/2025 21:55:12</Date>
+	<Date>07/03/2025 14:34:33</Date>
 	<AppInfo>
-		<Version>2025.6.10456</Version>
+		<Version>2025.7.10509</Version>
 		<Licensed>Yes</Licensed>
 		<Protections>Yes</Protections>
-		<Host>Windows 10 Professional 22H2 x64 - 10.0.19045.5856 (en-US)</Host>
+		<Host>Windows 10 Professional 22H2 x64 - 10.0.19045.5965 (en-US)</Host>
 	</AppInfo>
 	<ImageInfo>
-		<Version mode="offline">Windows 11 Professional 24H2 x64 - 10.0.26100.4061 (en-US)</Version>
-		<GUID>{D2275429-AD1E-4970-97E9-5BFAFD38129F}</GUID>
+		<Version mode="offline">Windows 11 Professional 24H2 x64 - 10.0.26100.4349 (en-US)</Version>
+		<GUID>{7E7236F1-7E02-471E-AAE5-53C4A5BE6D04}</GUID>
 	</ImageInfo>
 	<RemoveComponents AppRemovalMode="DISM">
 		<c>accessibility_cursors 'Mouse Pointers (Accessibility tools)'</c>
@@ -419,6 +419,7 @@
 		<c>otherthemes 'Windows Personalization themes'</c>
 		<c>outlookpwa 'Outlook PWA (InboxApp)'</c>
 		<c>payments</c>
+		<c>pdfreader 'Windows Reader (PDF)'</c>
 		<c>penservice 'Pen Service'</c>
 		<c>phonesvc 'Phone Service'</c>
 		<c>photoviewer 'Photo Viewer'</c>
@@ -487,6 +488,7 @@
 		<c>webthreatdefense 'Web Threat Defense Service'</c>
 		<c>webview2core 'WebView2 Runtime (Core)'</c>
 		<c>wfmmc32 'Windows Firewall (management console) - 32 bit'</c>
+		<c>whesvc 'Windows Health and Optimized Experiences'</c>
 		<c>widgetsplatformruntimeapp 'Widgets Platform Runtime (InboxApp)'</c>
 		<c>windows.cbspreview 'Windows Barcode Preview'</c>
 		<c>windows.devicesflow32 'Devices Flow - 32 bit'</c>
@@ -524,6 +526,7 @@
 			<Feature enabled="no">Scanning</Feature>
 			<Feature enabled="yes">ServicingStack</Feature>
 			<Feature enabled="yes">ShellSearchSupport</Feature>
+			<Feature enabled="no">SnippingTool</Feature>
 			<Feature enabled="yes">Spotify</Feature>
 			<Feature enabled="yes">SFC</Feature>
 			<Feature enabled="yes">DefaultFonts</Feature>
@@ -537,7 +540,6 @@
 			<Feature enabled="no">VPN</Feature>
 			<Feature enabled="no">VisualStudio</Feature>
 			<Feature enabled="no">VSS</Feature>
-			<Feature enabled="yes">ActivationKMS</Feature>
 			<Feature enabled="yes">Activation</Feature>
 			<Feature enabled="yes">WinSetup</Feature>
 			<Feature enabled="yes">WindowsStore</Feature>
@@ -588,13 +590,9 @@
 		<Feature name="Microsoft.Windows.Wifi.Client.Realtek.Rtwlane~~~~0.0.1.0">false</Feature>
 		<Feature name="Microsoft.Windows.Wifi.Client.Realtek.Rtwlane01~~~~0.0.1.0">false</Feature>
 		<Feature name="Microsoft.Windows.Wifi.Client.Realtek.Rtwlane13~~~~0.0.1.0">false</Feature>
-		<Feature name="Windows.TerminalServices.AppServerClient~~~~">false</Feature>
 		<Feature name="Windows.SmbDirect~~~~">false</Feature>
-		<Feature name="Windows.TFTP.Client~~~~">false</Feature>
-		<Feature name="Windows.HyperV.OptionalFeature.VirtualMachinePlatform.Client.Disabled~~~~">false</Feature>
 		<Feature name="Microsoft.Windows.Ethernet.Client.Vmware.Vmxnet3~~~~0.0.1.0">false</Feature>
 		<Feature name="Media.WindowsMediaPlayer~~~~0.0.12.0">false</Feature>
-		<Feature name="Windows.Client.ProjFS~~~~">false</Feature>
 		<Feature name="Windows.WinOcr~~~~">false</Feature>
 		<Feature name="Windows.WorkFolders.Client~~~~">false</Feature>
 	</Features>
