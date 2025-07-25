@@ -1,15 +1,15 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Preset isAutoSaved="true" xmlns="urn:schemas-nliteos-com:pn.v1">
-	<Date>07/03/2025 14:34:33</Date>
+	<Date>07/25/2025 01:12:24</Date>
 	<AppInfo>
-		<Version>2025.7.10509</Version>
+		<Version>2025.7.10534</Version>
 		<Licensed>Yes</Licensed>
 		<Protections>Yes</Protections>
-		<Host>Windows 10 Professional 22H2 x64 - 10.0.19045.5965 (en-US)</Host>
+		<Host>Windows 11 Professional 24H2 x64 - 10.0.26100.4652 (en-US)</Host>
 	</AppInfo>
 	<ImageInfo>
-		<Version mode="offline">Windows 11 Professional 24H2 x64 - 10.0.26100.4349 (en-US)</Version>
-		<GUID>{7E7236F1-7E02-471E-AAE5-53C4A5BE6D04}</GUID>
+		<Version mode="offline">Windows 11 Professional 24H2 x64 - 10.0.26100.4770 (en-US)</Version>
+		<GUID>{171F01F9-3022-4330-9C96-F1A2D87B29F4}</GUID>
 	</ImageInfo>
 	<RemoveComponents AppRemovalMode="DISM">
 		<c>accessibility_cursors 'Mouse Pointers (Accessibility tools)'</c>
@@ -68,6 +68,7 @@
 		<c>driver_hidbatt.inf</c>
 		<c>driver_hidir.inf</c>
 		<c>driver_hidirkbd.inf</c>
+		<c>driver_hidlamparray.inf</c>
 		<c>driver_hidscanner.inf</c>
 		<c>driver_hidtelephonydriver.inf</c>
 		<c>driver_idtsec.inf</c>
@@ -279,6 +280,7 @@
 		<c>driver_wvmic_ext.inf</c>
 		<c>driver_wvmic_vss.inf</c>
 		<c>driver_wvpci.inf</c>
+		<c>dynamiclighting 'Dynamic Lighting'</c>
 		<c>e2a4f912-2574-4a75-9bb0-0d023378592b 'App Resolver'</c>
 		<c>easeofaccessthemes 'Ease Of Access Themes'</c>
 		<c>edgehtml32 'HTML Viewer - 32 bit'</c>
@@ -507,7 +509,7 @@
 			<Feature enabled="no">CapFrameX</Feature>
 			<Feature enabled="yes">Discord</Feature>
 			<Feature enabled="no">Docker</Feature>
-			<Feature enabled="no">EA Anti-Cheat</Feature>
+			<Feature enabled="no">EAC</Feature>
 			<Feature enabled="yes">FileSharing</Feature>
 			<Feature enabled="no">Hyper-V</Feature>
 			<Feature enabled="no">iCloud</Feature>
@@ -590,16 +592,14 @@
 		<Feature name="Microsoft.Windows.Wifi.Client.Realtek.Rtwlane~~~~0.0.1.0">false</Feature>
 		<Feature name="Microsoft.Windows.Wifi.Client.Realtek.Rtwlane01~~~~0.0.1.0">false</Feature>
 		<Feature name="Microsoft.Windows.Wifi.Client.Realtek.Rtwlane13~~~~0.0.1.0">false</Feature>
-		<Feature name="Windows.SmbDirect~~~~">false</Feature>
 		<Feature name="Microsoft.Windows.Ethernet.Client.Vmware.Vmxnet3~~~~0.0.1.0">false</Feature>
 		<Feature name="Media.WindowsMediaPlayer~~~~0.0.12.0">false</Feature>
-		<Feature name="Windows.WinOcr~~~~">false</Feature>
 		<Feature name="Windows.WorkFolders.Client~~~~">false</Feature>
 	</Features>
 	<Packages>
 		<Options>
-			<CleanHotfixedLeftovers>0</CleanHotfixedLeftovers>
-			<OptimizeAppX>false</OptimizeAppX>
+			<CleanHotfixedLeftovers>4</CleanHotfixedLeftovers>
+			<OptimizeAppX>true</OptimizeAppX>
 			<UpdateBootManager>false</UpdateBootManager>
 		</Options>
 	</Packages>
