@@ -1,15 +1,15 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Preset isAutoSaved="true" xmlns="urn:schemas-nliteos-com:pn.v1">
-	<Date>07/25/2025 01:12:24</Date>
+	<Date>08/23/2025 23:18:22</Date>
 	<AppInfo>
-		<Version>2025.7.10534</Version>
+		<Version>2025.8.10552</Version>
 		<Licensed>Yes</Licensed>
 		<Protections>Yes</Protections>
-		<Host>Windows 11 Professional 24H2 x64 - 10.0.26100.4652 (en-US)</Host>
+		<Host>Windows 11 Professional 24H2 x64 - 10.0.26100.4946 (en-US)</Host>
 	</AppInfo>
 	<ImageInfo>
-		<Version mode="offline">Windows 11 Professional 24H2 x64 - 10.0.26100.4770 (en-US)</Version>
-		<GUID>{171F01F9-3022-4330-9C96-F1A2D87B29F4}</GUID>
+		<Version mode="offline">Windows 11 Professional 24H2 x64 - 10.0.26100.4946 (en-US)</Version>
+		<GUID>{465CC607-49A1-4548-9F8E-4013F50A5EC4}</GUID>
 	</ImageInfo>
 	<RemoveComponents AppRemovalMode="DISM">
 		<c>accessibility_cursors 'Mouse Pointers (Accessibility tools)'</c>
@@ -427,7 +427,6 @@
 		<c>photoviewer 'Photo Viewer'</c>
 		<c>photoviewer32 'Photo Viewer - 32 bit'</c>
 		<c>pos 'Point of Service (POS)'</c>
-		<c>powershell32 'PowerShell - 32 bit'</c>
 		<c>powershellise 'PowerShell ISE'</c>
 		<c>powershellise32 'PowerShell ISE - 32 bit'</c>
 		<c>printmgmt 'Print Management'</c>
