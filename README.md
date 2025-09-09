@@ -27,6 +27,9 @@ This file is for when you make Install Media that includes XBOX and Windows Upda
 
 ![win11-desktop](https://github.com/user-attachments/assets/52402e6d-e9b5-4d22-b760-82552d13371e)
 
+▶ How to update without Windows Update (Windows 11 only):
+
+[![IUpdating Windows](https://img.youtube.com/vi/MOL-pYqzcXM/0.jpg)](https://youtu.be/MOL-pYqzcXM)
 
 ▶ autounattended.xml:
 
