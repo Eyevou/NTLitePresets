@@ -1,4 +1,4 @@
-<h1>Windows 10/11 Presets for NTLite</h1>
+<h1>Windows 11 Presets for NTLite</h1>
 <h5>The goal of this preset is to give you the most barebones install while maintaining as much compatibility for everything you probably care about. This preset is a good starting point for Gaming, Video editing, streaming, and much more!</h5><hr>
 <h3>Everyone wants something different from their Windows experience. Why not start here?</h3>
 
@@ -17,11 +17,6 @@ This file removes the Taskbar pin/component for DevHome and Outlook (New). Safe 
 `all_Standard_Install.reg`
 
 This file is for when you make Install Media that includes XBOX and Windows Update stuff. It doesn't remove their entries in the Settings App so that you can edit them later.
-  
-▶ Windows 10:
-
-![windows10-preset](https://github.com/user-attachments/assets/cc6ef5fb-0b9f-4dce-b6d0-f0fba1a3a8d8)
-
 
 ▶ Windows 11:
 
