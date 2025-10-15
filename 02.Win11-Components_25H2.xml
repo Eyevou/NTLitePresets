@@ -1,15 +1,15 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Preset isAutoSaved="true" xmlns="urn:schemas-nliteos-com:pn.v1">
-	<Date selected="08/23/2025 23:18:22">08/23/2025 23:18:22</Date>
+	<Date>10/09/2025 11:08:51</Date>
 	<AppInfo>
-		<Version>2025.8.10552</Version>
+		<Version>2025.10.10631</Version>
 		<Licensed>Yes</Licensed>
 		<Protections>Yes</Protections>
-		<Host>Windows 11 Professional 24H2 x64 - 10.0.26100.4946 (en-US)</Host>
+		<Host>Windows 10 Professional 22H2 x64 - 10.0.19045.6332 (en-US)</Host>
 	</AppInfo>
 	<ImageInfo>
-		<Version mode="offline">Windows 11 Professional 24H2 x64 - 10.0.26100.4946 (en-US)</Version>
-		<GUID>{465CC607-49A1-4548-9F8E-4013F50A5EC4}</GUID>
+		<Version mode="offline">Windows 11 Professional 25H2 x64 - 10.0.26200.6584 (en-US)</Version>
+		<GUID>{58D6290C-2772-49F0-8C7B-E4FDD78C9A4E}</GUID>
 	</ImageInfo>
 	<RemoveComponents AppRemovalMode="DISM">
 		<c>accessibility_cursors 'Mouse Pointers (Accessibility tools)'</c>
@@ -316,7 +316,6 @@
 		<c>hwsupport_telephony 'Telephony'</c>
 		<c>hwsupport_tv 'TV Tuner codecs and support'</c>
 		<c>iis 'Internet Information Server (IIS)'</c>
-		<c>indeo 'Intel Indeo Codecs'</c>
 		<c>insiderhub 'Windows Insider Program'</c>
 		<c>internetexplorer 'Internet Explorer'</c>
 		<c>internetexplorer32 'Internet Explorer - 32 bit'</c>
@@ -345,20 +344,20 @@
 		<c>microsoft.av1videoextension 'AV1 Video Extension'</c>
 		<c>microsoft.avcencodervideoextension 'AVC Encoder Video Extension'</c>
 		<c>microsoft.bingnews 'Microsoft News'</c>
-		<c>microsoft.bingsearch 'Microsoft Bing Search'</c>
+		<c>microsoft.bingsearch 'Microsoft Bing'</c>
 		<c>microsoft.bingweather 'MSN Weather'</c>
 		<c>microsoft.bioenrollment 'Windows Hello Setup'</c>
 		<c>microsoft.creddialoghost 'Credential Dialog'</c>
 		<c>microsoft.ecapp 'Eye Control'</c>
 		<c>microsoft.gamingapp 'Xbox App'</c>
 		<c>microsoft.gethelp 'Get Help'</c>
-		<c>microsoft.heifimageextension 'HEIF Image Extensions'</c>
+		<c>microsoft.heifimageextension 'HEIF Image Extension'</c>
 		<c>microsoft.hevcvideoextension 'HEVC Video Extensions from Device Manufacturer'</c>
 		<c>microsoft.lockapp 'Windows Default Lock Screen'</c>
 		<c>microsoft.microsoftedge 'Microsoft Edge (Legacy)'</c>
 		<c>microsoft.microsoftedge.stable 'Microsoft Edge (Chromium)'</c>
 		<c>microsoft.microsoftedgedevtoolsclient 'Microsoft Edge DevTools Client'</c>
-		<c>microsoft.microsoftofficehub 'Microsoft 365 (Office)'</c>
+		<c>microsoft.microsoftofficehub 'Microsoft 365 Copilot'</c>
 		<c>microsoft.microsoftsolitairecollection 'Solitaire &amp; Casual Games'</c>
 		<c>microsoft.microsoftstickynotes 'Microsoft Sticky Notes'</c>
 		<c>microsoft.mpeg2videoextension 'MPEG-2 Video Extension'</c>
@@ -371,7 +370,7 @@
 		<c>microsoft.todos 'Microsoft To Do'</c>
 		<c>microsoft.vp9videoextensions 'VP9 Video Extensions'</c>
 		<c>microsoft.webmediaextensions 'Web Media Extensions'</c>
-		<c>microsoft.webpimageextension 'Webp Image Extensions'</c>
+		<c>microsoft.webpimageextension 'WebP Image Extension'</c>
 		<c>microsoft.win32webviewhost 'Desktop App Web Viewer'</c>
 		<c>microsoft.windows.apprep.chxapp 'SmartScreen'</c>
 		<c>microsoft.windows.assignedaccesslockapp 'Assigned Access Lock app'</c>
@@ -451,11 +450,11 @@
 		<c>remoteregistry 'Remote Registry'</c>
 		<c>retaildemo 'Retail Demo Content'</c>
 		<c>rotationmanager 'Auto-Rotation Manager'</c>
+		<c>ruxim 'Reusable UX Interaction Manager (RUXIM)'</c>
 		<c>screensavers</c>
 		<c>servicesmmc32 'Services (management console) - 32 bit'</c>
 		<c>sharedpc 'Shared PC mode'</c>
 		<c>simpletcp 'Simple TCP/IP services'</c>
-		<c>skypeortc 'Skype ORTC'</c>
 		<c>sleepstudy 'Sleep Study'</c>
 		<c>smbdirect 'SMB Direct (RDMA)'</c>
 		<c>smbv1 'SMB v1'</c>
@@ -498,62 +497,20 @@
 		<c>windowsupdate 'Windows Update'</c>
 		<c>xbox 'Xbox - Core'</c>
 	</RemoveComponents>
-	<Compatibility protectHidden="true">
+	<Compatibility>
 		<ComponentFeatures>
-			<Feature enabled="no">AppGuard</Feature>
 			<Feature enabled="no">Battle.net</Feature>
-			<Feature enabled="no">YubiKey</Feature>
 			<Feature enabled="yes">Bluetooth</Feature>
-			<Feature enabled="yes">USBCamera</Feature>
-			<Feature enabled="no">CapFrameX</Feature>
-			<Feature enabled="yes">Discord</Feature>
-			<Feature enabled="no">Docker</Feature>
 			<Feature enabled="no">EAC</Feature>
-			<Feature enabled="yes">FileSharing</Feature>
-			<Feature enabled="no">Hyper-V</Feature>
-			<Feature enabled="no">iCloud</Feature>
-			<Feature enabled="no">Kaspersky</Feature>
-			<Feature enabled="yes">OfficeSupport</Feature>
-			<Feature enabled="yes">AppxSupport</Feature>
-			<Feature enabled="yes">Netflix</Feature>
-			<Feature enabled="no">NetworkDiscovery</Feature>
-			<Feature enabled="yes">NightLight</Feature>
-			<Feature enabled="yes">NvidiaSetup</Feature>
 			<Feature enabled="no">OOBE</Feature>
 			<Feature enabled="no">Printing</Feature>
 			<Feature enabled="no">Recommended-All</Feature>
-			<Feature enabled="no">RDPServer</Feature>
-			<Feature enabled="no">SamsungSwitch</Feature>
 			<Feature enabled="no">Scanning</Feature>
-			<Feature enabled="yes">ServicingStack</Feature>
-			<Feature enabled="yes">ShellSearchSupport</Feature>
-			<Feature enabled="no">SnippingTool</Feature>
-			<Feature enabled="yes">Spotify</Feature>
-			<Feature enabled="yes">SFC</Feature>
-			<Feature enabled="yes">DefaultFonts</Feature>
-			<Feature enabled="no">SafeMode</Feature>
-			<Feature enabled="yes">TeamViewer</Feature>
-			<Feature enabled="no">Recommended-Tablet</Feature>
 			<Feature enabled="no">HostRefresh</Feature>
-			<Feature enabled="no">USBModem</Feature>
-			<Feature enabled="yes">USB</Feature>
-			<Feature enabled="yes">VideoPlayback</Feature>
-			<Feature enabled="no">VPN</Feature>
 			<Feature enabled="no">VisualStudio</Feature>
-			<Feature enabled="no">VSS</Feature>
-			<Feature enabled="yes">Activation</Feature>
-			<Feature enabled="yes">WinSetup</Feature>
-			<Feature enabled="yes">WindowsStore</Feature>
 			<Feature enabled="no">WindowsUpdate</Feature>
-			<Feature enabled="yes">WLAN</Feature>
 		</ComponentFeatures>
-		<MachineDrivers>
-			<Machine enabled="yes">HostMachine</Machine>
-			<Machine enabled="no">Hyper-V VM</Machine>
-			<Machine enabled="no">Parallels VM</Machine>
-			<Machine enabled="no">Virtual Box VM</Machine>
-			<Machine enabled="no">VMware VM</Machine>
-		</MachineDrivers>
+		<MachineDrivers></MachineDrivers>
 	</Compatibility>
 	<Features>
 		<Feature name="Windows.Kernel.LA57~~~~0.0.1.0">false</Feature>
@@ -591,34 +548,19 @@
 		<Feature name="Microsoft.Windows.Wifi.Client.Realtek.Rtwlane~~~~0.0.1.0">false</Feature>
 		<Feature name="Microsoft.Windows.Wifi.Client.Realtek.Rtwlane01~~~~0.0.1.0">false</Feature>
 		<Feature name="Microsoft.Windows.Wifi.Client.Realtek.Rtwlane13~~~~0.0.1.0">false</Feature>
+		<Feature name="Windows.SmbDirect~~~~">false</Feature>
 		<Feature name="Microsoft.Windows.Ethernet.Client.Vmware.Vmxnet3~~~~0.0.1.0">false</Feature>
 		<Feature name="Media.WindowsMediaPlayer~~~~0.0.12.0">false</Feature>
+		<Feature name="Microsoft.Windows.PowerShell.ISE~~~~0.0.1.0">false</Feature>
 		<Feature name="Windows.WorkFolders.Client~~~~">false</Feature>
 	</Features>
 	<Packages>
 		<Options>
 			<CleanHotfixedLeftovers>4</CleanHotfixedLeftovers>
 			<OptimizeAppX>true</OptimizeAppX>
-			<UpdateBootManager>false</UpdateBootManager>
 		</Options>
 	</Packages>
-	<Commands>
-		<PostUpdates>
-			<!--<Command>cmd /c echo Example from [MOUNTDIR]\Windows &amp; pause</Command>-->
-			<!--<Command>dism /image:[MOUNTDIR] /get-intl</Command>-->
-		</PostUpdates>
-	</Commands>
-	<Drivers>
-		<Options>
-			<ReuseDriverCache>false</ReuseDriverCache>
-			<ShowHidden>true</ShowHidden>
-		</Options>
-	</Drivers>
 	<Unattended mode="0">
-		<AnswerFileLocationPanther>false</AnswerFileLocationPanther>
-		<AnswerFileLocationBoot>false</AnswerFileLocationBoot>
-		<SaveBothArch>false</SaveBothArch>
-		<EditionPrompt>false</EditionPrompt>
 		<settings pass="oobeSystem">
 			<component name="Microsoft-Windows-International-Core">
 				<InputLocale>0409:00000409</InputLocale>
@@ -688,22 +630,8 @@
 					<Enable>false</Enable>
 					<WillShowUI>OnError</WillShowUI>
 				</DynamicUpdate>
-				<ImageInstall>
-					<OSImage>
-						<WillShowUI>OnError</WillShowUI>
-						<InstallFrom>
-							<MetaData>
-								<Key>/IMAGE/INDEX</Key>
-								<Value>1</Value>
-							</MetaData>
-						</InstallFrom>
-					</OSImage>
-				</ImageInstall>
 				<UserData>
 					<AcceptEula>true</AcceptEula>
-					<ProductKey>
-						<Key></Key>
-					</ProductKey>
 				</UserData>
 			</component>
 		</settings>
@@ -714,23 +642,11 @@
 				<Tweak name="Keyboard\PrintScreenKeyForSnippingEnabled">0</Tweak>
 			</TweakGroup>
 		</Settings>
-		<Services></Services>
-		<ExtraServices></ExtraServices>
-		<ScheduledTasks></ScheduledTasks>
 	</Tweaks>
 	<ApplyOptions>
 		<ImageTasks>
 			<Task>imageSaveRebuild</Task>
 			<Task>imageFormatWim</Task>
 		</ImageTasks>
-		<AutoIsoFile>NTLite.iso</AutoIsoFile>
-		<AutoIsoLabel>NTLite</AutoIsoLabel>
-		<AutoSplitSize>4000</AutoSplitSize>
 	</ApplyOptions>
-	<Execution BeforeLogonMode="0">
-		<Remove></Remove>
-		<Change></Change>
-		<Add></Add>
-	</Execution>
-	<Registry></Registry>
 </Preset>
