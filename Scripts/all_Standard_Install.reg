@@ -85,3 +85,7 @@ Windows Registry Editor Version 5.00
 
 [HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Control\FileSystem]
 "LongPathsEnabled"=dword:00000001
+
+; Forces windows to not restart unexpectedly
+[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\Windows Update\AU]
+"NoAutoRebootWithLoggedOnUsers"=dword:00000001

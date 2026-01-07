@@ -91,8 +91,14 @@ Windows Registry Editor Version 5.00
 [HKEY_USERS\S-1-5-20\Software\Microsoft\Windows\CurrentVersion\DeliveryOptimization\Settings]
 "DownloadMode"=dword:00000000
 
+; Enables Long file paths in Explorer
 [HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Control\FileSystem]
 "LongPathsEnabled"=dword:00000001
 
+; Sets AllowTelemetry to 0 in the registry, just in case.
 [HKEY_LOCAL_MACHINE\SOFTWARE\Policies\Microsoft\Windows\DataCollection]
 "AllowTelemetry"=dword:00000000
+
+; Forces windows to not restart unexpectedly
+[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\Windows Update\AU]
+"NoAutoRebootWithLoggedOnUsers"=dword:00000001
