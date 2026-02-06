@@ -102,3 +102,9 @@ Windows Registry Editor Version 5.00
 ; Forces windows to not restart unexpectedly
 [HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\Windows Update\AU]
 "NoAutoRebootWithLoggedOnUsers"=dword:00000001
+
+; Disable the "ms-gamingoverlay" error
+[HKEY_CURRENT_USER\SOFTWARE\Microsoft\Windows\CurrentVersion\GameDVR]
+"AppCaptureEnabled"=dword:0
+[HKEY_CURRENT_USER\System\GameConfigStore]
+"GameDVR_Enabled"=dword:0
