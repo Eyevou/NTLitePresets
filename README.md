@@ -36,5 +36,6 @@ This file is for when you make Install Media that includes XBOX and Windows Upda
 
 1) LDPlayer9: You'll need to run the installer for this program again (can take a bit to start)
 2) ImageGlass: This program is restored to default.
+3) Chatty: Notifications panel doesn't show properly. Run the installer again to rehook the overlay.
 
 > If you find any other program oddities after updating please let me know through either the ![Issues Tracker](https://github.com/Eyevou/NTLitePresets/issues) or [NTLite Discord](https://discord.com/invite/UDMbgc6B5e). Thanks!
