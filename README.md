@@ -32,9 +32,10 @@ This file is for when you make Install Media that includes XBOX and Windows Upda
 
 -----
 
-▶ Known Issues after Updating:
+▶ Known Issues:
 
 1) LDPlayer9: You'll need to run the installer for this program again (can take a bit to start)
 2) ImageGlass: This program is restored to default.
+3) .NET Framework 3.5: If you plan on needing this you MUST add it to your install media before installing, unless you keep Windows Update.
 
 > If you find any other program oddities after updating please let me know through either the ![Issues Tracker](https://github.com/Eyevou/NTLitePresets/issues) or [NTLite Discord](https://discord.com/invite/UDMbgc6B5e). Thanks!
