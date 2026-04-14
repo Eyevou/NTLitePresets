@@ -1,16 +1,16 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Preset isAutoSaved="true" xmlns="urn:schemas-nliteos-com:pn.v1">
-	<Date>03/05/2026 07:41:40</Date>
+	<Date>04/14/2026 00:49:56</Date>
 	<Version>1.1</Version>
 	<AppInfo>
-		<Version>2026.3.10854</Version>
+		<Version>2026.4.10936</Version>
 		<Licensed>Yes</Licensed>
 		<Protections>Yes</Protections>
-		<Host>Windows 11 Professional 25H2 x64 - 10.0.26200.7840 (en-US)</Host>
+		<Host>Windows 10 IoTEnterpriseS 21H2 x64 - 10.0.19044.7058 (en-US)</Host>
 	</AppInfo>
 	<ImageInfo>
-		<Version mode="offline">Windows 11 Professional 25H2 x64 - 10.0.26200.7840 (en-US)</Version>
-		<GUID>{2E4419F0-AC82-436E-81C3-A3AD38F0A8DD}</GUID>
+		<Version mode="offline">Windows 11 Professional 25H2 x64 - 10.0.26200.8037 (en-US)</Version>
+		<GUID>{7E8181A0-2979-4A01-8645-C2D086F1B93A}</GUID>
 	</ImageInfo>
 	<RemoveComponents AppRemovalMode="DISM">
 		<c>accessibility_cursors 'Mouse Pointers (Accessibility tools)'</c>
@@ -554,6 +554,7 @@
 		</MachineDrivers>
 	</Compatibility>
 	<Features>
+		<Feature name="NetFX3~~~~">true</Feature>
 		<Feature name="Windows.Kernel.LA57~~~~0.0.1.0">false</Feature>
 		<Feature name="Microsoft.Windows.Wifi.Client.Broadcom.Bcmpciedhd63~~~~0.0.1.0">false</Feature>
 		<Feature name="Microsoft.Windows.Wifi.Client.Broadcom.Bcmwl63a~~~~0.0.1.0">false</Feature>
