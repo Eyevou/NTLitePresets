@@ -34,7 +34,6 @@ This file is for when you make Install Media that includes XBOX and Windows Upda
 
 ▶ Known Issues:
 
-1) LDPlayer9: You'll need to run the installer for this program again (can take a bit to start)
-2) ImageGlass: This program is restored to default.
+1) ImageGlass10: Default extension hooks can get unset after an update. Run their "Set as default" wizard in Settings or manually set the files default program when going to view an image.
 
 > If you find any other program oddities after updating please let me know through either the ![Issues Tracker](https://github.com/Eyevou/NTLitePresets/issues) or [NTLite Discord](https://discord.com/invite/UDMbgc6B5e). Thanks!
