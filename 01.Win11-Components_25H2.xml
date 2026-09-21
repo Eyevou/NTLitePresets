@@ -1,16 +1,16 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Preset isAutoSaved="true" xmlns="urn:schemas-nliteos-com:pn.v1">
-	<Date>04/14/2026 00:49:56</Date>
+	<Date>04/17/2026 19:53:37</Date>
 	<Version>1.1</Version>
 	<AppInfo>
 		<Version>2026.4.10936</Version>
 		<Licensed>Yes</Licensed>
 		<Protections>Yes</Protections>
-		<Host>Windows 10 IoTEnterpriseS 21H2 x64 - 10.0.19044.7058 (en-US)</Host>
+		<Host>Windows 10 IoTEnterpriseS 21H2 x64 - 10.0.19044.7184 (en-US)</Host>
 	</AppInfo>
 	<ImageInfo>
-		<Version mode="offline">Windows 11 Professional 25H2 x64 - 10.0.26200.8037 (en-US)</Version>
-		<GUID>{7E8181A0-2979-4A01-8645-C2D086F1B93A}</GUID>
+		<Version mode="offline">Windows 11 Professional 25H2 x64 - 10.0.26200.8246 (en-US)</Version>
+		<GUID>{290F942D-34EA-4CFD-816A-601BA281653C}</GUID>
 	</ImageInfo>
 	<RemoveComponents AppRemovalMode="DISM">
 		<c>accessibility_cursors 'Mouse Pointers (Accessibility tools)'</c>
@@ -36,7 +36,6 @@
 		<c>copilotpwa 'Windows Copilot (InboxApp)'</c>
 		<c>cursors 'Mouse Pointers'</c>
 		<c>desktopimgdownldr 'Desktop image downloader'</c>
-		<c>deviceguard 'Device Guard'</c>
 		<c>deviceupdatecenter 'Device Update Center'</c>
 		<c>devmgmt32 'Device Manager - 32 bit'</c>
 		<c>diagnostics 'Diagnostics and Troubleshooting'</c>
@@ -314,7 +313,6 @@
 		<c>internetexplorer 'Internet Explorer'</c>
 		<c>internetexplorer32 'Internet Explorer - 32 bit'</c>
 		<c>iscsi 'iSCSI Initiator'</c>
-		<c>isolatedusermode 'Virtualization-based security (VBS)'</c>
 		<c>kerberos32 'Kerberos Client - 32 bit'</c>
 		<c>kerneldebug 'Kernel Debugging'</c>
 		<c>la57 '57-bit Linear Addressing'</c>
@@ -359,7 +357,6 @@
 		<c>microsoft.powerautomatedesktop 'Power Automate'</c>
 		<c>microsoft.rawimageextension 'Raw Image Extension'</c>
 		<c>microsoft.screensketch 'Snipping Tool'</c>
-		<c>microsoft.sechealthui 'Microsoft Defender Antivirus'</c>
 		<c>microsoft.storepurchaseapp 'Store Experience Host'</c>
 		<c>microsoft.todos 'Microsoft To Do'</c>
 		<c>microsoft.vp9videoextensions 'VP9 Video Extensions'</c>
