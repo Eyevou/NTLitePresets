@@ -8,15 +8,16 @@
 
 `all.reg`
 
-This is a file that contains tweaks to make Windows Explorer less bloated. Removes Home, Gaming, and Windows Update tabs in the Settings App for Windows 11. Can also be used on Windows 10. Should be placed to run AFTER logon.
+This is a file that contains tweaks to make Windows feel better to use. Included but not limited to: 
+Restoring the Windows 10 right-click menu, Cleaning folder bloat from Windows Explorer, and disabling Sticky Keys.
+
+`all_Hide_Settings_Options.reg`
+
+Removes Home and Windows Update tabs in the Settings App for Windows 11. It will also disable Windows Delivery Optimization.
 
 `all_Disable-DevHome-OutlookNew.ps1`
 
-This file removes the Taskbar pin/component for DevHome and Outlook (New). Safe for both Windows 10 and 11. Should be placed to run AFTER logon.
-
-`all_Standard_Install.reg`
-
-This file is for when you make Install Media that includes XBOX and Windows Update stuff. It doesn't remove their entries in the Settings App so that you can edit them later.
+This file removes the Taskbar pin/component for DevHome and Outlook (New). Safe for both Windows 10 and 11.
 
 ▶ Windows 11:
 
