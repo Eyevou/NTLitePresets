@@ -2,7 +2,7 @@
 <h5>The goal of this preset is to give you the most barebones install while maintaining as much compatibility for everything you probably care about. This preset is a good starting point for Gaming, Video editing, streaming, and much more!</h5><hr>
 <h3>Everyone wants something different from their Windows experience. Why not start here?</h3>
 
-🔴 Notes 🔴
+🔴 Important Notes and File Descriptions 🔴
 
 ▶ Scripts:
 
