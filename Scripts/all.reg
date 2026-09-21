@@ -15,8 +15,6 @@ Windows Registry Editor Version 5.00
 ; Removes "Desktop" folder in Explorer
 [-HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Explorer\MyComputer\NameSpace\{B4BFCC3A-DB2C-424C-B029-7FE99A87C641}]
 [-HKEY_LOCAL_MACHINE\SOFTWARE\Wow6432Node\Microsoft\Windows\CurrentVersion\Explorer\MyComputer\NameSpace\{B4BFCC3A-DB2C-424C-B029-7FE99A87C641}]
-[+HKEY_CURRENT_USER\Software\Classes\CLSID\{f874310e-b6b7-47dc-bc84-b9e6b38f5903}]
-"System.IsPinnedToNameSpaceTree"=dword:0
 
 ; Removes "3D Objects" folder in Explorer
 [-HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Explorer\MyComputer\NameSpace\{0DB7E03F-FC29-4DC6-9020-FF41B59E513A}]
@@ -48,6 +46,8 @@ Windows Registry Editor Version 5.00
 
 ; Unpins "Home" from Explorer
 [-HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Explorer\Desktop\NameSpace\{f874310e-b6b7-47dc-bc84-b9e6b38f5903}]
+[+HKEY_CURRENT_USER\Software\Classes\CLSID\{f874310e-b6b7-47dc-bc84-b9e6b38f5903}]
+"System.IsPinnedToNameSpaceTree"=dword:0
 
 ; Removes "Network" category for Explorer
 [-HKEY_CLASSES_ROOT\CLSID\{F02C1A0D-BE21-4350-88B0-7367FC96EF3C}\ShellFolder]
@@ -84,14 +84,6 @@ Windows Registry Editor Version 5.00
 ; Turns off "Toggle Keys"
 [HKEY_CURRENT_USER\Control Panel\Accessibility\ToggleKeys]
 "Flags"="34"
-
-; Hides the "Home" and "Windows Update" pages in the Settings App for Windows 11
-[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Policies\Explorer]
-"SettingsPageVisibility"="hide:windowsupdate;home;gaming-gamebar;gaming-gamedvr;gaming-gamemode"
-
-; WINDOWS UPDATE: disable delivery optimization
-[HKEY_USERS\S-1-5-20\Software\Microsoft\Windows\CurrentVersion\DeliveryOptimization\Settings]
-"DownloadMode"=dword:00000000
 
 ; Enables Long file paths in Explorer
 [HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Control\FileSystem]
