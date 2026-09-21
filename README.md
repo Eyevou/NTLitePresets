@@ -4,7 +4,7 @@
 
 🔴 Important Notes and File Descriptions 🔴
 
-▶ Scripts:
+▶ Script Descriptions:
 
 `all.reg`
 
@@ -30,6 +30,29 @@ This file removes the Taskbar pin/component for DevHome and Outlook (New). Safe 
 ▶ autounattended.xml:
 
   This is the unattended file that I use to solo boot into Windows as Administrator (System) and set the time to USET.
+
+▶ How to use, step-by-step:
+
+1) Download an installation ISO from Microsoft and the XML files from the repo.
+2) Mount the ISO, by double clicking the file you got from Microsoft.
+3) Copy/paste the contents of the mounted drive into a newly created folder on your desktop.
+4) Open NTLite.
+5) Drag and drop the XML files you downloaded from this github page into NTLite.
+6) Drag and drop the folder you made on the desktop, that contains the ISO files, into NTLite.
+7) Find the edition you want to apply the preset to, right-click it, click "Remove Editions".
+8) Check the box beside all editions you don't want. Click "Ok".
+9) When it finishes double click on the edition and mount it, wait for it to complete.
+10) After it's loaded, go into Updates and click "Add" then "Latest Updates".
+11) Add the latest Cumulative Update, .NET framework, and security updates then click Enqueue.
+12) Click "Drivers" then "Import Host".
+13) Click "Image" then under "Preset" double click "01.WinXX-Components_XXXX.xml".
+  13a) (Optional) If there are additional component presets you'll want to right-click them and select "Load - Merge"
+14) Click "Apply" then "Process".
+15) Wait for everything to complete.
+16) (SKIP if attempting to UPDATE an install) Open the folder on your desktop containing your install media and add "autounattended.xml" into the directory, where setup.exe is.
+17) Drag and drop all the files onto a USB Flash drive.
+    17a) If Updating just double click setup.exe from the USB drive. If done correctly the installer WILL NOT prompt you for a drive to install to.
+18) Restart and boot into the installation process.
 
 -----
 
