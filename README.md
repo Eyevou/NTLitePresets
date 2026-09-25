@@ -60,6 +60,6 @@ This file removes the Taskbar pin/component for DevHome and Outlook (New). Safe 
 
 ▶ Known Issues:
 
-1) ImageGlass10: Default extension hooks can get unset after an update. Run their "Set as default" wizard in Settings or manually set the files default program when going to view an image.
+1) Upgrading can sometimes remove or reset file associations.
 
 > If you find any other program oddities after updating please let me know through either the ![Issues Tracker](https://github.com/Eyevou/NTLitePresets/issues) or [NTLite Discord](https://discord.com/invite/UDMbgc6B5e). Thanks!
