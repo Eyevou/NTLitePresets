@@ -105,3 +105,8 @@ Windows Registry Editor Version 5.00
 
 ;Windows 11 Quick Access Removable
 [-HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Explorer\Desktop\NameSpace\DelegateFolders\{3936E9E4-D92C-4EEE-A85A-BC16D5EA0819}]
+
+;Addressing AMD driver timeout
+[HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Control\GraphicsDrivers]
+"TdrDdiDelay"=dword:0000003c
+"TdrDelay"=dword:0000003c
