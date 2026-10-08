@@ -19,6 +19,11 @@ Removes Home and Windows Update tabs in the Settings App for Windows 11. It will
 
 This file removes the Taskbar pin/component for DevHome and Outlook (New). Safe for both Windows 10 and 11.
 
+`Fix_for_Driver_Timeout_AMD.reg`
+
+AMD GPU drivers have been dealing with intermittent timeouts for a while now and this is the best solution I've found for it.<br>
+I personally tested it with World of Warcraft: Mainline, Classic Era, and Forever.
+
 ▶ Desktop Preview (Windows 11):
 
 ![win11-desktop](https://github.com/user-attachments/assets/52402e6d-e9b5-4d22-b760-82552d13371e)
