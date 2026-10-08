@@ -1,6 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Preset isAutoSaved="true" xmlns="urn:schemas-nliteos-com:pn.v1">
-	<Date>10/03/2026 15:14:22</Date>
+	<Date>10/08/2026 18:23:14</Date>
 	<Version>1.1</Version>
 	<AppInfo>
 		<Version>2026.9.12311</Version>
@@ -9,8 +9,8 @@
 		<Host>Windows 11 Education 26H2 x64 - 10.0.26300.9550 (en-US)</Host>
 	</AppInfo>
 	<ImageInfo>
-		<Version mode="offline">Windows 11 Education 26H2 x64 - 10.0.26300.9550 (en-US)</Version>
-		<GUID>{874BA022-7BC0-4AF4-8ECE-11E456F0DB27}</GUID>
+		<Version mode="offline">Windows 11 Education 26H2 x64 - 10.0.26300.9457 (en-US)</Version>
+		<GUID>{F2F81728-54B3-4149-A459-1D24B69BFF95}</GUID>
 	</ImageInfo>
 	<RemoveComponents AppRemovalMode="DISM" RemovalMode="Custom" RemovalModeAppCleanup="false" RemovalModeLegacy="true">
 		<c>accessibility_cursors 'Mouse Pointers (Accessibility tools)'</c>
@@ -93,6 +93,7 @@
 			<Feature enabled="no">SamsungSwitch</Feature>
 			<Feature enabled="yes">ServicingStack</Feature>
 			<Feature enabled="no">ShellSearchSupport</Feature>
+			<Feature enabled="no">SnippingTool</Feature>
 			<Feature enabled="no">Spotify</Feature>
 			<Feature enabled="yes">SFC</Feature>
 			<Feature enabled="no">DefaultFonts</Feature>
@@ -125,6 +126,7 @@
 	<Packages>
 		<Options>
 			<CleanHotfixedLeftovers>5</CleanHotfixedLeftovers>
+			<CleanApps>true</CleanApps>
 			<OptimizeAppX>true</OptimizeAppX>
 		</Options>
 	</Packages>
@@ -197,8 +199,6 @@
 	<ApplyOptions>
 		<ImageTasks>
 			<Task>imageFormatWim</Task>
-			<Task>imageOptionsCreateIso</Task>
-			<Task>imageOptionsSkipPrompt</Task>
 		</ImageTasks>
 		<AutoIsoFile>C:\Users\Administrator\Desktop\NTLite.iso</AutoIsoFile>
 		<WinReMode>Sync</WinReMode>
