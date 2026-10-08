@@ -1,6 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Preset isAutoSaved="true" xmlns="urn:schemas-nliteos-com:pn.v1">
-	<Date>10/07/2026 01:48:53</Date>
+	<Date>10/03/2026 12:33:25</Date>
 	<Version>1.1</Version>
 	<AppInfo>
 		<Version>2026.9.12311</Version>
@@ -12,7 +12,7 @@
 		<Version mode="offline">Windows 11 Education 26H2 x64 - 10.0.26300.9550 (en-US)</Version>
 		<GUID>{D65E2DA7-9F55-428B-B193-30F70E0D8A57}</GUID>
 	</ImageInfo>
-	<RemoveComponents AppRemovalMode="Custom" RemovalMode="Custom" RemovalModeWU="false" RemovalModeAppCleanup="true">
+	<RemoveComponents AppRemovalMode="DISM" RemovalMode="Custom" RemovalModeAppCleanup="false" RemovalModeLegacy="true">
 		<c>accessibility_cursors 'Mouse Pointers (Accessibility tools)'</c>
 		<c>accessibility_magnifier 'Screen Magnifier'</c>
 		<c>activedirectory 'Active Directory'</c>
@@ -26,7 +26,6 @@
 		<c>azuread 'Azure Active Directory'</c>
 		<c>bingsearch 'Bing Search (InboxApp)'</c>
 		<c>branchcacheclient 'BranchCache Client'</c>
-		<c>cameraccx 'Camera Class Extension (CCX)'</c>
 		<c>captureservice 'Capture Service'</c>
 		<c>ceip 'CEIP (SQM)'</c>
 		<c>cellulartime 'Cellular Time'</c>
@@ -38,7 +37,6 @@
 		<c>containers 'Containers (Application Guard)'</c>
 		<c>copilotpwa 'Windows Copilot (InboxApp)'</c>
 		<c>cursors 'Mouse Pointers'</c>
-		<c>deliveryoptimization 'Delivery Optimization'</c>
 		<c>desktopimgdownldr 'Desktop image downloader'</c>
 		<c>deviceupdatecenter 'Device Update Center'</c>
 		<c>devmgmt32 'Device Manager - 32 bit'</c>
@@ -282,8 +280,6 @@
 		<c>edgeupdate 'Microsoft Edge Update'</c>
 		<c>edgewebview 'Microsoft Edge WebView'</c>
 		<c>edgewebviewlegacy 'WebView2 Runtime (Legacy)'</c>
-		<c>editiontransmogrifier 'Edition change support'</c>
-		<c>editiontransmogrifier32 'Edition change support - 32 bit'</c>
 		<c>embeddedexperience 'Device Lockdown (Embedded Experience)'</c>
 		<c>embeddedmode 'Embedded Mode'</c>
 		<c>enterpriseclientsync 'Work Folders Client'</c>
@@ -297,8 +293,6 @@
 		<c>firstlogonanim 'First-logon animation'</c>
 		<c>flipgridpwa 'Flipgrid PWA (InboxApp)'</c>
 		<c>fontpreviewer32 'Font previewer - 32 bit'</c>
-		<c>frameserver 'Camera Frame Server'</c>
-		<c>frameservernet 'Networked Camera Source'</c>
 		<c>fsmgmt32 'Shared Folders UI - 32 bit'</c>
 		<c>gameexplorer 'Game Explorer'</c>
 		<c>hbaapi 'Host Bus Adapter (HBA) API'</c>
@@ -417,7 +411,6 @@
 		<c>onedrive</c>
 		<c>oobefodsetup 'Out-of-box Experience (OOBE) - FOD Setup'</c>
 		<c>openssh</c>
-		<c>optionalfeatures 'Optional Features'</c>
 		<c>otherthemes 'Windows Personalization themes'</c>
 		<c>outlookpwa 'Outlook PWA (InboxApp)'</c>
 		<c>payments</c>
@@ -454,7 +447,6 @@
 		<c>ruxim 'Reusable UX Interaction Manager (RUXIM)'</c>
 		<c>screensavers</c>
 		<c>servicesmmc32 'Services (management console) - 32 bit'</c>
-		<c>sfc 'System File Check (SFC)'</c>
 		<c>sharedpc 'Shared PC mode'</c>
 		<c>simpletcp 'Simple TCP/IP services'</c>
 		<c>sleepstudy 'Sleep Study'</c>
@@ -465,7 +457,6 @@
 		<c>soundthemes 'Sound Themes'</c>
 		<c>sourcessxsdir 'Manual feature repository'</c>
 		<c>srumon 'Data Usage service'</c>
-		<c>sstackwow64 'Servicing stack - 32 bit'</c>
 		<c>startexperiencesapp 'Start Experiences (InboxApp)'</c>
 		<c>stepsrecorder 'Steps Recorder'</c>
 		<c>storageqos 'Storage Quality of Service (Storage QoS)'</c>
@@ -499,7 +490,6 @@
 		<c>windowstogo 'Windows To Go'</c>
 		<c>windowsupdate 'Windows Update'</c>
 		<c>wininet 'Windows Internet (WinINet) - Helper and Cache'</c>
-		<c>winsxs 'Windows Component Store (WinSxS)'</c>
 		<c>wuqisvc 'Microsoft Usage and Quality Insights'</c>
 	</RemoveComponents>
 	<Compatibility>
@@ -507,24 +497,24 @@
 			<Feature enabled="no">AppGuard</Feature>
 			<Feature enabled="no">Battle.net</Feature>
 			<Feature enabled="no">YubiKey</Feature>
-			<Feature enabled="no">Bluetooth</Feature>
-			<Feature enabled="no">USBCamera</Feature>
+			<Feature enabled="yes">Bluetooth</Feature>
+			<Feature enabled="yes">USBCamera</Feature>
 			<Feature enabled="no">CapFrameX</Feature>
-			<Feature enabled="no">Discord</Feature>
+			<Feature enabled="yes">Discord</Feature>
 			<Feature enabled="no">Docker</Feature>
 			<Feature enabled="no">EAC</Feature>
-			<Feature enabled="no">FileSharing</Feature>
+			<Feature enabled="yes">FileSharing</Feature>
 			<Feature enabled="no">Hyper-V</Feature>
 			<Feature enabled="no">iCloud</Feature>
 			<Feature enabled="no">Kaspersky</Feature>
-			<Feature enabled="no">LegacyGames</Feature>
-			<Feature enabled="no">OfficeSupport</Feature>
-			<Feature enabled="no">WindowsStore</Feature>
-			<Feature enabled="no">AppxSupport</Feature>
-			<Feature enabled="no">Netflix</Feature>
+			<Feature enabled="yes">LegacyGames</Feature>
+			<Feature enabled="yes">OfficeSupport</Feature>
+			<Feature enabled="yes">WindowsStore</Feature>
+			<Feature enabled="yes">AppxSupport</Feature>
+			<Feature enabled="yes">Netflix</Feature>
 			<Feature enabled="no">NetworkDiscovery</Feature>
-			<Feature enabled="no">NightLight</Feature>
-			<Feature enabled="no">NvidiaSetup</Feature>
+			<Feature enabled="yes">NightLight</Feature>
+			<Feature enabled="yes">NvidiaSetup</Feature>
 			<Feature enabled="no">OneNote</Feature>
 			<Feature enabled="no">OOBE</Feature>
 			<Feature enabled="no">PITR</Feature>
@@ -533,33 +523,33 @@
 			<Feature enabled="no">RDPServer</Feature>
 			<Feature enabled="no">SamsungSwitch</Feature>
 			<Feature enabled="no">Scanning</Feature>
-			<Feature enabled="no">ServicingStack</Feature>
-			<Feature enabled="no">ShellSearchSupport</Feature>
+			<Feature enabled="yes">ServicingStack</Feature>
+			<Feature enabled="yes">ShellSearchSupport</Feature>
 			<Feature enabled="no">SnippingTool</Feature>
-			<Feature enabled="no">Spotify</Feature>
-			<Feature enabled="no">SFC</Feature>
-			<Feature enabled="no">DefaultFonts</Feature>
+			<Feature enabled="yes">Spotify</Feature>
+			<Feature enabled="yes">SFC</Feature>
+			<Feature enabled="yes">DefaultFonts</Feature>
 			<Feature enabled="no">SafeMode</Feature>
-			<Feature enabled="no">TeamViewer</Feature>
+			<Feature enabled="yes">TeamViewer</Feature>
 			<Feature enabled="no">Recommended-Tablet</Feature>
 			<Feature enabled="no">TpmSecureBoot</Feature>
 			<Feature enabled="no">HostRefresh</Feature>
-			<Feature enabled="no">USB</Feature>
+			<Feature enabled="yes">USB</Feature>
 			<Feature enabled="no">USBModem</Feature>
-			<Feature enabled="no">VideoPlayback</Feature>
+			<Feature enabled="yes">VideoPlayback</Feature>
 			<Feature enabled="no">VPN</Feature>
 			<Feature enabled="no">VisualStudio</Feature>
 			<Feature enabled="no">VSS</Feature>
-			<Feature enabled="no">Activation</Feature>
+			<Feature enabled="yes">Activation</Feature>
 			<Feature enabled="no">WFC</Feature>
 			<Feature enabled="no">WindowsSecurity</Feature>
-			<Feature enabled="no">WinSetup</Feature>
+			<Feature enabled="yes">WinSetup</Feature>
 			<Feature enabled="no">WindowsUpdate</Feature>
-			<Feature enabled="no">WLAN</Feature>
+			<Feature enabled="yes">WLAN</Feature>
 			<Feature enabled="no">XboxApp</Feature>
 		</ComponentFeatures>
 		<MachineDrivers>
-			<Machine enabled="no">HostMachine</Machine>
+			<Machine enabled="yes">HostMachine</Machine>
 			<Machine enabled="no">Hyper-V VM</Machine>
 			<Machine enabled="no">Parallels VM</Machine>
 			<Machine enabled="no">Virtual Box VM</Machine>
@@ -601,8 +591,7 @@
 	</Features>
 	<Packages>
 		<Options>
-			<CleanHotfixedLeftovers>3</CleanHotfixedLeftovers>
-			<CleanApps>true</CleanApps>
+			<CleanHotfixedLeftovers>5</CleanHotfixedLeftovers>
 			<OptimizeAppX>true</OptimizeAppX>
 		</Options>
 	</Packages>
