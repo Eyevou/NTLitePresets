@@ -1,0 +1,6 @@
+Windows Registry Editor Version 5.00
+
+;Addressing AMD driver timeout
+[HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Control\GraphicsDrivers]
+"TdrDdiDelay"=dword:0000003c
+"TdrDelay"=dword:0000003c
