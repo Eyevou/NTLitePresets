@@ -1,6 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Preset isAutoSaved="true" xmlns="urn:schemas-nliteos-com:pn.v1">
-	<Date>10/03/2026 12:33:25</Date>
+	<Date>10/08/2026 17:59:13</Date>
 	<Version>1.1</Version>
 	<AppInfo>
 		<Version>2026.9.12311</Version>
@@ -9,15 +9,14 @@
 		<Host>Windows 11 Education 26H2 x64 - 10.0.26300.9550 (en-US)</Host>
 	</AppInfo>
 	<ImageInfo>
-		<Version mode="offline">Windows 11 Education 26H2 x64 - 10.0.26300.9550 (en-US)</Version>
-		<GUID>{D65E2DA7-9F55-428B-B193-30F70E0D8A57}</GUID>
+		<Version mode="offline">Windows 11 Education 26H2 x64 - 10.0.26300.9457 (en-US)</Version>
+		<GUID>{0837AD95-EB4A-4E37-806B-3A9FDA867FE1}</GUID>
 	</ImageInfo>
 	<RemoveComponents AppRemovalMode="DISM" RemovalMode="Custom" RemovalModeAppCleanup="false" RemovalModeLegacy="true">
 		<c>accessibility_cursors 'Mouse Pointers (Accessibility tools)'</c>
 		<c>accessibility_magnifier 'Screen Magnifier'</c>
 		<c>activedirectory 'Active Directory'</c>
 		<c>adamclient 'Active Directory Lightweight Directory Services (AD LDS)'</c>
-		<c>aicomponentmgmt 'AI Component Management'</c>
 		<c>asimov 'Telemetry Client'</c>
 		<c>assembly.net '.NET assembly cache'</c>
 		<c>assignedaccess 'Assigned Access'</c>
@@ -26,12 +25,10 @@
 		<c>azuread 'Azure Active Directory'</c>
 		<c>bingsearch 'Bing Search (InboxApp)'</c>
 		<c>branchcacheclient 'BranchCache Client'</c>
-		<c>captureservice 'Capture Service'</c>
 		<c>ceip 'CEIP (SQM)'</c>
 		<c>cellulartime 'Cellular Time'</c>
 		<c>certmgr32 'Certificate Manager - 32 bit'</c>
 		<c>clipchamp.clipchamp 'Clipchamp'</c>
-		<c>clouddesktop 'Cloud Desktop'</c>
 		<c>commmc32 'COM+ (Component Services) (management console) - 32 bit'</c>
 		<c>compmgmt32 'Computer Management - 32 bit'</c>
 		<c>containers 'Containers (Application Guard)'</c>
@@ -316,7 +313,6 @@
 		<c>kerberos32 'Kerberos Client - 32 bit'</c>
 		<c>kerneldebug 'Kernel Debugging'</c>
 		<c>la57 '57-bit Linear Addressing'</c>
-		<c>laps 'Windows Local Administrator Password Solution (LAPS)'</c>
 		<c>lcu 'Cumulative Update cache (LCU)'</c>
 		<c>livecaptions 'Live Captions'</c>
 		<c>location 'Location Service'</c>
@@ -330,7 +326,6 @@
 		<c>mediaplayer32 'Windows Media Player - 32 bit'</c>
 		<c>mediaplayernetworksharing 'WMP Network Sharing Service'</c>
 		<c>mediaplayernetworksharing32 'WMP Network Sharing Service - 32 bit'</c>
-		<c>memorydiagnostic 'Memory Diagnostic'</c>
 		<c>messagingsvc 'Messaging Service'</c>
 		<c>microsoft.aifabric.cbs.1.6</c>
 		<c>microsoft.applicationcompatibilityenhancements 'Windows Application Compatibility Enhancements'</c>
@@ -358,7 +353,6 @@
 		<c>microsoft.outlookforwindows 'Outlook for Windows'</c>
 		<c>microsoft.powerautomatedesktop 'Power Automate'</c>
 		<c>microsoft.rawimageextension 'Raw Image Extension'</c>
-		<c>microsoft.screensketch 'Snipping Tool'</c>
 		<c>microsoft.storepurchaseapp 'Store Experience Host'</c>
 		<c>microsoft.todos 'Microsoft To Do'</c>
 		<c>microsoft.vp9videoextensions 'VP9 Video Extensions'</c>
@@ -367,7 +361,6 @@
 		<c>microsoft.win32webviewhost 'Desktop App Web Viewer'</c>
 		<c>microsoft.windows.assignedaccesslockapp 'Assigned Access Lock app'</c>
 		<c>microsoft.windows.augloop.cbs</c>
-		<c>microsoft.windows.capturepicker 'Capture Picker'</c>
 		<c>microsoft.windows.contentdeliverymanager 'Content Delivery Manager'</c>
 		<c>microsoft.windows.devhome 'Dev Home'</c>
 		<c>microsoft.windows.narratorquickstart 'Narrator'</c>
@@ -381,8 +374,6 @@
 		<c>microsoft.windows.secureassessmentbrowser 'Take a Test'</c>
 		<c>microsoft.windows.xgpuejectdialog 'Safely Remove Device'</c>
 		<c>microsoft.windowsalarms 'Windows Clock'</c>
-		<c>microsoft.windowsappruntime.1.6 'WindowsAppRuntime.1.6'</c>
-		<c>microsoft.windowsappruntime.cbs.1.6 'Windows Application Runtime v1.6'</c>
 		<c>microsoft.windowscamera 'Windows Camera'</c>
 		<c>microsoft.windowsfeedbackhub 'Feedback Hub'</c>
 		<c>microsoft.windowsnotepad 'Notepad'</c>
@@ -489,7 +480,6 @@
 		<c>windows.printdialog 'Windows Print'</c>
 		<c>windowstogo 'Windows To Go'</c>
 		<c>windowsupdate 'Windows Update'</c>
-		<c>wininet 'Windows Internet (WinINet) - Helper and Cache'</c>
 		<c>wuqisvc 'Microsoft Usage and Quality Insights'</c>
 	</RemoveComponents>
 	<Compatibility>
@@ -592,6 +582,7 @@
 	<Packages>
 		<Options>
 			<CleanHotfixedLeftovers>5</CleanHotfixedLeftovers>
+			<CleanApps>true</CleanApps>
 			<OptimizeAppX>true</OptimizeAppX>
 		</Options>
 	</Packages>
