@@ -1,6 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Preset isAutoSaved="true" xmlns="urn:schemas-nliteos-com:pn.v1">
-	<Date>10/07/2026 02:02:51</Date>
+	<Date>10/03/2026 15:14:22</Date>
 	<Version>1.1</Version>
 	<AppInfo>
 		<Version>2026.9.12311</Version>
@@ -10,9 +10,9 @@
 	</AppInfo>
 	<ImageInfo>
 		<Version mode="offline">Windows 11 Education 26H2 x64 - 10.0.26300.9550 (en-US)</Version>
-		<GUID>{437EE4C7-AD5F-4096-93A3-3858B51CBD0F}</GUID>
+		<GUID>{874BA022-7BC0-4AF4-8ECE-11E456F0DB27}</GUID>
 	</ImageInfo>
-	<RemoveComponents AppRemovalMode="Custom" RemovalMode="Custom" RemovalModeWU="false" RemovalModeAppCleanup="true" RemovalModeLegacy="true">
+	<RemoveComponents AppRemovalMode="DISM" RemovalMode="Custom" RemovalModeAppCleanup="false" RemovalModeLegacy="true">
 		<c>accessibility_cursors 'Mouse Pointers (Accessibility tools)'</c>
 		<c>accessibility_magnifier 'Screen Magnifier'</c>
 		<c>amsi 'Anti-Malware Scan Interface Library'</c>
@@ -22,7 +22,31 @@
 		<c>consentux 'Consent UX'</c>
 		<c>defenderantivirus 'Microsoft Defender Antivirus'</c>
 		<c>deviceguard 'Device Guard'</c>
+		<c>driver_c_volsnap.inf</c>
+		<c>driver_ehstorpwddrv.inf</c>
+		<c>driver_ehstortcgdrv.inf</c>
 		<c>driver_hvservice.inf</c>
+		<c>driver_rawsilo.inf</c>
+		<c>driver_spaceport.inf</c>
+		<c>driver_tpmvsc.inf</c>
+		<c>driver_volsnap.inf</c>
+		<c>driver_wdmvsc.inf</c>
+		<c>driver_wfcvsc.inf</c>
+		<c>driver_wgencounter.inf</c>
+		<c>driver_whvcrash.inf</c>
+		<c>driver_whyperkbd.inf</c>
+		<c>driver_wnetvsc.inf</c>
+		<c>driver_ws3cap.inf</c>
+		<c>driver_wstorflt.inf</c>
+		<c>driver_wstorvsc.inf</c>
+		<c>driver_wvid.inf</c>
+		<c>driver_wvmbus.inf</c>
+		<c>driver_wvmbushid.inf</c>
+		<c>driver_wvmbusvideo.inf</c>
+		<c>driver_wvmgid.inf</c>
+		<c>driver_wvmic.inf</c>
+		<c>driver_wvmic_vss.inf</c>
+		<c>driver_wvpci.inf</c>
 		<c>guardedhost 'Guarded Host'</c>
 		<c>hyperv 'Hyper-V'</c>
 		<c>hypervguest 'Hyper-V Integration Services'</c>
@@ -47,6 +71,7 @@
 		<ComponentFeatures>
 			<Feature enabled="no">Battle.net</Feature>
 			<Feature enabled="no">Bluetooth</Feature>
+			<Feature enabled="no">USBCamera</Feature>
 			<Feature enabled="no">CapFrameX</Feature>
 			<Feature enabled="no">Discord</Feature>
 			<Feature enabled="no">EAC</Feature>
@@ -66,8 +91,12 @@
 			<Feature enabled="no">PITR</Feature>
 			<Feature enabled="no">Recommended-All</Feature>
 			<Feature enabled="no">SamsungSwitch</Feature>
+			<Feature enabled="yes">ServicingStack</Feature>
 			<Feature enabled="no">ShellSearchSupport</Feature>
+			<Feature enabled="no">Spotify</Feature>
+			<Feature enabled="yes">SFC</Feature>
 			<Feature enabled="no">DefaultFonts</Feature>
+			<Feature enabled="no">SafeMode</Feature>
 			<Feature enabled="no">TeamViewer</Feature>
 			<Feature enabled="no">Recommended-Tablet</Feature>
 			<Feature enabled="no">TpmSecureBoot</Feature>
@@ -96,7 +125,6 @@
 	<Packages>
 		<Options>
 			<CleanHotfixedLeftovers>5</CleanHotfixedLeftovers>
-			<CleanApps>true</CleanApps>
 			<OptimizeAppX>true</OptimizeAppX>
 		</Options>
 	</Packages>
@@ -169,6 +197,8 @@
 	<ApplyOptions>
 		<ImageTasks>
 			<Task>imageFormatWim</Task>
+			<Task>imageOptionsCreateIso</Task>
+			<Task>imageOptionsSkipPrompt</Task>
 		</ImageTasks>
 		<AutoIsoFile>C:\Users\Administrator\Desktop\NTLite.iso</AutoIsoFile>
 		<WinReMode>Sync</WinReMode>
