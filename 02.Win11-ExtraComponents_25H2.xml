@@ -1,0 +1,191 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Preset isAutoSaved="true" xmlns="urn:schemas-nliteos-com:pn.v1">
+	<Date>09/21/2026 14:23:15</Date>
+	<Version>1.1</Version>
+	<AppInfo>
+		<Version>2026.9.12200</Version>
+		<Licensed>Yes</Licensed>
+		<Protections>Yes</Protections>
+		<Host>Windows 11 Education 25H2 x64 - 10.0.26200.9457 (en-US)</Host>
+	</AppInfo>
+	<ImageInfo>
+		<Version mode="offline">Windows 11 Education 25H2 x64 - 10.0.26200.9457 (en-US)</Version>
+		<GUID>{C15FEBFF-CBD8-4CA1-94C9-06914621E6DA}</GUID>
+	</ImageInfo>
+	<RemoveComponents AppRemovalMode="DISM">
+		<c>accessibility_cursors 'Mouse Pointers (Accessibility tools)'</c>
+		<c>accessibility_magnifier 'Screen Magnifier'</c>
+		<c>codeintegrity 'Code Integrity (CI)'</c>
+		<c>defenderantivirus 'Microsoft Defender Antivirus'</c>
+		<c>deviceguard 'Device Guard'</c>
+		<c>driver_c_volsnap.inf</c>
+		<c>driver_ehstorpwddrv.inf</c>
+		<c>driver_ehstortcgdrv.inf</c>
+		<c>driver_rawsilo.inf</c>
+		<c>driver_spaceport.inf</c>
+		<c>driver_tpmvsc.inf</c>
+		<c>driver_volsnap.inf</c>
+		<c>driver_wdmvsc.inf</c>
+		<c>driver_wfcvsc.inf</c>
+		<c>driver_wgencounter.inf</c>
+		<c>driver_whvcrash.inf</c>
+		<c>driver_whyperkbd.inf</c>
+		<c>driver_wnetvsc.inf</c>
+		<c>driver_ws3cap.inf</c>
+		<c>driver_wstorflt.inf</c>
+		<c>driver_wstorvsc.inf</c>
+		<c>driver_wvid.inf</c>
+		<c>driver_wvmbus.inf</c>
+		<c>driver_wvmbushid.inf</c>
+		<c>driver_wvmbusvideo.inf</c>
+		<c>driver_wvmgid.inf</c>
+		<c>driver_wvmic.inf</c>
+		<c>driver_wvmic_vss.inf</c>
+		<c>driver_wvpci.inf</c>
+		<c>isolatedusermode 'Virtualization-based security (VBS)'</c>
+		<c>lcu 'Cumulative Update cache (LCU)'</c>
+		<c>microsoft.sechealthui 'Windows Security'</c>
+		<c>sac 'Smart App Control (SAC)'</c>
+		<c>userdeviceregistration 'User Device Registration'</c>
+	</RemoveComponents>
+	<Compatibility>
+		<ComponentFeatures>
+			<Feature enabled="no">Battle.net</Feature>
+			<Feature enabled="yes">Bluetooth</Feature>
+			<Feature enabled="yes">USBCamera</Feature>
+			<Feature enabled="no">CapFrameX</Feature>
+			<Feature enabled="yes">Discord</Feature>
+			<Feature enabled="no">EAC</Feature>
+			<Feature enabled="yes">FileSharing</Feature>
+			<Feature enabled="no">Hyper-V</Feature>
+			<Feature enabled="no">iCloud</Feature>
+			<Feature enabled="no">Kaspersky</Feature>
+			<Feature enabled="yes">LegacyGames</Feature>
+			<Feature enabled="yes">OfficeSupport</Feature>
+			<Feature enabled="yes">WindowsStore</Feature>
+			<Feature enabled="yes">AppxSupport</Feature>
+			<Feature enabled="yes">Netflix</Feature>
+			<Feature enabled="no">NetworkDiscovery</Feature>
+			<Feature enabled="yes">NightLight</Feature>
+			<Feature enabled="yes">NvidiaSetup</Feature>
+			<Feature enabled="no">OOBE</Feature>
+			<Feature enabled="no">PITR</Feature>
+			<Feature enabled="no">Recommended-All</Feature>
+			<Feature enabled="no">SamsungSwitch</Feature>
+			<Feature enabled="yes">ServicingStack</Feature>
+			<Feature enabled="yes">ShellSearchSupport</Feature>
+			<Feature enabled="yes">Spotify</Feature>
+			<Feature enabled="yes">SFC</Feature>
+			<Feature enabled="yes">DefaultFonts</Feature>
+			<Feature enabled="no">SafeMode</Feature>
+			<Feature enabled="yes">TeamViewer</Feature>
+			<Feature enabled="no">Recommended-Tablet</Feature>
+			<Feature enabled="no">TpmSecureBoot</Feature>
+			<Feature enabled="no">HostRefresh</Feature>
+			<Feature enabled="yes">USB</Feature>
+			<Feature enabled="no">USBModem</Feature>
+			<Feature enabled="yes">VideoPlayback</Feature>
+			<Feature enabled="no">VPN</Feature>
+			<Feature enabled="no">VisualStudio</Feature>
+			<Feature enabled="no">VSS</Feature>
+			<Feature enabled="yes">Activation</Feature>
+			<Feature enabled="no">WFC</Feature>
+			<Feature enabled="no">WindowsSecurity</Feature>
+			<Feature enabled="yes">WinSetup</Feature>
+			<Feature enabled="yes">WLAN</Feature>
+			<Feature enabled="no">XboxApp</Feature>
+		</ComponentFeatures>
+		<MachineDrivers>
+			<Machine enabled="yes">HostMachine</Machine>
+			<Machine enabled="no">Hyper-V VM</Machine>
+			<Machine enabled="no">Parallels VM</Machine>
+			<Machine enabled="no">Virtual Box VM</Machine>
+			<Machine enabled="no">VMware VM</Machine>
+		</MachineDrivers>
+	</Compatibility>
+	<Packages>
+		<Options>
+			<CleanHotfixedLeftovers>5</CleanHotfixedLeftovers>
+			<OptimizeAppX>true</OptimizeAppX>
+		</Options>
+	</Packages>
+	<Unattended mode="0">
+		<settings pass="oobeSystem">
+			<component name="Microsoft-Windows-International-Core">
+				<SystemLocale>en-US</SystemLocale>
+				<UserLocale>en-US</UserLocale>
+				<InputLocale>0409:00000409</InputLocale>
+				<UILanguage>en-US</UILanguage>
+				<UILanguageFallback>en-US</UILanguageFallback>
+			</component>
+			<component name="Microsoft-Windows-Shell-Setup">
+				<TimeZone>Eastern Standard Time</TimeZone>
+				<AutoLogon>
+					<Enabled>true</Enabled>
+					<LogonCount>9999999</LogonCount>
+					<Username>NTLiteUser</Username>
+					<Password>
+						<PlainText>true</PlainText>
+						<Value></Value>
+					</Password>
+				</AutoLogon>
+				<OOBE>
+					<HideEULAPage>true</HideEULAPage>
+					<HideLocalAccountScreen>true</HideLocalAccountScreen>
+					<HideOnlineAccountScreens>true</HideOnlineAccountScreens>
+					<HideWirelessSetupInOOBE>true</HideWirelessSetupInOOBE>
+					<NetworkLocation>Home</NetworkLocation>
+					<ProtectYourPC>3</ProtectYourPC>
+				</OOBE>
+				<UserAccounts>
+					<LocalAccounts>
+						<LocalAccount>
+							<DisplayName>NTLite User</DisplayName>
+							<Group>Administrators</Group>
+							<Name>NTLiteUser</Name>
+							<Password>
+								<PlainText>true</PlainText>
+								<Value></Value>
+							</Password>
+						</LocalAccount>
+					</LocalAccounts>
+				</UserAccounts>
+			</component>
+		</settings>
+		<settings pass="specialize">
+			<component name="Microsoft-Windows-Security-SPP-UX">
+				<SkipAutoActivation>true</SkipAutoActivation>
+			</component>
+			<component name="Microsoft-Windows-Shell-Setup">
+				<ComputerName>DESKTOP-D0UCH3</ComputerName>
+			</component>
+		</settings>
+		<settings pass="windowsPE">
+			<component name="Microsoft-Windows-International-Core-WinPE">
+				<CopyOobe>true</CopyOobe>
+			</component>
+			<component name="Microsoft-Windows-Setup">
+				<Diagnostics>
+					<OptIn>false</OptIn>
+				</Diagnostics>
+				<UserData>
+					<AcceptEula>true</AcceptEula>
+				</UserData>
+			</component>
+		</settings>
+	</Unattended>
+	<Tweaks></Tweaks>
+	<ApplyOptions>
+		<ImageTasks>
+			<Task>imageFormatWim</Task>
+		</ImageTasks>
+		<WinReMode>Sync</WinReMode>
+		<Commands>
+			<PostApply>
+				<!--<Command>cmd /C echo Example from "[MOUNTDIR]\Windows" &amp; pause</Command>-->
+				<!--<Command>cmd /C dism /image:"[MOUNTDIR]" /get-intl</Command>-->
+				<!--<Command>C:\PathToScript\test.cmd</Command>-->
+			</PostApply>
+		</Commands>
+	</ApplyOptions>
+</Preset>
