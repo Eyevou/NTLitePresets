@@ -1,7 +1,7 @@
 <h1>Windows 11 Presets for NTLite</h1>
 <h5>The goal of this preset is to give you the most barebones install while maintaining as much compatibility for everything you probably care about. This preset is a good starting point for Gaming, Video editing, streaming, and much more!</h5><hr>
 
-<h2>⭐ When Upgrading to 26H2 a full reinstall is recommended but now necessary. ⭐<p></h2>
+<h2>⭐ When Upgrading to 26H2 a full reinstall is recommended. ⭐<p></h2>
 
 🔴 Important Notes and File Descriptions 🔴
 
