@@ -67,5 +67,7 @@ I personally tested it with World of Warcraft: Mainline, Classic Era, and Foreve
 
 1) Upgrading can sometimes remove or reset file associations.
 2) Applying to a deployed image may require reinstallation of WebView2 via the [Edge WebView2 Evergreen Installer](https://developer.microsoft.com/en-us/microsoft-edge/webview2).
+3) AMD Graphic drivers may not want to install. Use the webinstaller to fix this.
+4) Paint may act like it doesn't want to launch after a clean install (Core.dll). Restarting your computer should fix the issue.
 
 > If you find any other program oddities after updating please let me know through either the ![Issues Tracker](https://github.com/Eyevou/NTLitePresets/issues) or [NTLite Discord](https://discord.com/invite/UDMbgc6B5e). Thanks!
