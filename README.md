@@ -22,12 +22,12 @@ This file removes the Taskbar pin/component for DevHome and Outlook (New). Safe 
 
 `Fix_for_Driver_Timeout_AMD.reg`
 
-AMD GPU drivers have been dealing with intermittent timeouts for a while now and this is the best solution I've found for it.<br>
-I personally tested it with World of Warcraft: Mainline, Classic Era, and Forever.
+AMD GPU drivers have been dealing with intermittent timeouts for a while now and this is the best solution I've found for it.<p>
 
 ▶ Desktop Preview (Windows 11):
 
-![win11-desktop](https://github.com/user-attachments/assets/52402e6d-e9b5-4d22-b760-82552d13371e)
+<img width="1021" height="765" alt="desktop26h2" src="https://github.com/user-attachments/assets/b6a512ca-8501-4baf-ba73-a0cf37273a76" />
+
 
 ▶ How to update without Windows Update (Windows 11 only):
 
@@ -67,8 +67,7 @@ I personally tested it with World of Warcraft: Mainline, Classic Era, and Foreve
 ▶ Known Issues:
 
 1) Upgrading can sometimes remove or reset file associations.
-2) Applying to a deployed image may require reinstallation of WebView2 via the [Edge WebView2 Evergreen Installer](https://developer.microsoft.com/en-us/microsoft-edge/webview2).
+2) Applying to a deployed image may require reinstallation of WebView2 via the [Edge WebView2 Evergreen Installer](https://developer.microsoft.com/en-us/microsoft-edge/webview2), if not kept.
 3) AMD Graphic drivers may not want to install. Use the webinstaller to fix this.
-4) Paint may act like it doesn't want to launch after a clean install (Core.dll). Restarting your computer should fix the issue.
 
 > If you find any other program oddities after updating please let me know through either the ![Issues Tracker](https://github.com/Eyevou/NTLitePresets/issues) or [NTLite Discord](https://discord.com/invite/UDMbgc6B5e). Thanks!
