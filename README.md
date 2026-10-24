@@ -67,7 +67,7 @@ AMD GPU drivers have been dealing with intermittent timeouts for a while now and
 ▶ Known Issues:
 
 1) Upgrading can sometimes remove or reset file associations.
-2) Applying to a deployed image may require reinstallation of WebView2 via the [Edge WebView2 Evergreen Installer](https://developer.microsoft.com/en-us/microsoft-edge/webview2), if not kept.
+2) Applying to an already deployed image may require reinstallation of WebView2 via the [Edge WebView2 Evergreen Installer](https://developer.microsoft.com/en-us/microsoft-edge/webview2).
 3) AMD Graphic drivers may not want to install. Use the webinstaller to fix this.
 
 > If you find any other program oddities after updating please let me know through either the ![Issues Tracker](https://github.com/Eyevou/NTLitePresets/issues) or [NTLite Discord](https://discord.com/invite/UDMbgc6B5e). Thanks!
